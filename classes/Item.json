@@ -1,0 +1,1268 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Item",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.0"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.0"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF  3.0"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Item"
+            },
+            {
+                "@language": "es",
+                "@value": "Ítem"
+            },
+            {
+                "@language": "fr",
+                "@value": "Ítem"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.0) A moving image Item is the physical or digital product of a Manifestation of a Work or Variant, i.e. the actual copy of a Work or Variant. Whereas the Manifestation record describes the “ideal” of a particular format or publication, the Item record represents the actual holding in a repository's collection."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.0) Un Ítem de imágenes en movimiento es el producto físico o digital de la Manifestación de una Obra o Variante, i.e., la copia real de una obra o Variante. Mientras que el registro de la Manifestación describe el “ideal” de un formato o publicación particular, el registro del Ítem representa la existencia real dentro de la colección de un repositorio."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.0) Un Item d'une image animée est le produit physique ou numérique de la Manifestation d'une Œuvre ou d'une Variante, c'est-à-dire la copie réelle d'une Œuvre ou d'une Variante. Alors que la notice Manifestation décrit le modèle idéal d'un format ou d'une publication en particulier, l'Item représente le document réel conservé dans la collection d'une institution."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasBase",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.13"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.13"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.13"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Base"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Base"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Base"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Base"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.13) The physical material or video format on which the Item is captured, for example, describing the flexible transparent material that supports a film items’ emulsion or a magnetic track, (e.g., acetate, nitrate, CTA, etc.)."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.13) El material físico o el formato de video sobre el que se ha capturado el Ítem, por ejemplo, la descripción del material flexible transparente que soporta la emulsión de la película de un Ítem o una pista magnética (por ejemplo, acetato, nitrato, CTA, etc.)"
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.13) Le matériel physique ou le format vidéo sur lequel l’Item est fixé, décrivant par exemple le support souple et transparent sur lequel est fixée l’émulsion d’un film ou d’une bande magnétique (p. ex. acétate, nitrate, triacétate, etc.)."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasBroadcastStandard",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.10"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.10"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.10"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Broadcast Standard"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Norma de Transmisión de Video"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Standard de Télédiffusion"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/BroadcastStandard"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.10) The broadcast standard for a video or DVD/BluRay: NTSC, PAL, SECAM."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.10) La norma de transmisión de video o DVD / BluRay puede ser: NTSC, PAL, SECAM."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.10) Il s'agit des standards de codage pour les vidéos ou DVD/Blu-ray : NTSC, PAL, SECAM."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasCarrier",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.1, 3.1.5.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.1, 3.1.5.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.4.1, 3.1.5.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Carrier"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Portador"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Type de Support"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Carrier"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.4.1) Carrier type is the medium on or the encoding format in which the Manifestation is fixed. (3.1.5.1) Carrier type is the medium on or the encoding format in which the Item is fixed."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.4.1) El tipo de portador es el medio en el que se almacena o se codifica una Manifestación. (3.1.5.1) Se refiere al formato de codificación o el medio en el que se ha fijado el Ítem."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.4.1) Le type de support désigne le support ou le format d'encodage sur lequel la Manifestation est fixée. (3.1.5.1) Le type de support est le support ou le format d'encodage sur lequel l'Item est fixé."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasColourCharacteristic",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.4, 3.1.5.6"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.4, 3.1.5.6"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.4.4, 3.1.5.6"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Colour Characteristic"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Características de Color"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Caractéristique de Couleur"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/ColourCharacteristic"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.4.4) The presence of colour(s), tone(s), etc. in a Manifestation. (3.1.5.6) The presence of colour(s), tone(s), etc. in an Item."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.4.4) Se refiere a la presencia de color(es), tono(s), etc., en una Manifestación. (3.1.5.6) La presencia de color(es), tono(s), etc., en un Ítem."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.4.4) Indique la présence de couleur(s), teinte(s), etc. dans une Manifestation. (3.1.5.6) Il s'agit de signaler la présence de couleur(s), teinte(s), etc. dans un Item."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasElement",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.4"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.4"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.4"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Element"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Elemento"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Type"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Element"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.4) Record the nature or function of the moving image Item, describing its place in thephotochemical or digital production or duplication process, for example, “original negative,” “duplicate negative,” etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.4) Registre la naturaleza o función del Ítem de imágenes en movimiento, describiendo su lugar en la producción fotoquímica o digital o en el proceso de duplicación, por ejemplo, “negativo original”, “negativo duplicado”, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.4) Enregistrez la nature ou la fonction de l'Item, en décrivant sa place dans les procédés de production ou de duplication photochimique ou numérique, par exemple, « négatif original », « contretype négatif », etc."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasEvent",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.2, 2.4.2, 3.3.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.2, 2.4.2, 3.3.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Event"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Evento"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Événement"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Event"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.2) An Event characterises occurrences in the lifecycle of a moving image Work or its Variants. (2.4.2) An Event characterises occurrences in the life cycle of a moving image Manifestation. Instances of any Event type can have Agent and Other relationships. (3.3.2) An Event characterises occurrences in the life cycle of a moving image Item."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.2) Un Evento caracteriza ocurrencias en el ciclo de vida de una Obra de imágenes en movimiento o sus Variantes. (2.4.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de una Manifestación de imágenes en movimiento. Así, cualquier tipo de Evento pueden tener relaciones con Agente(s) y con “Otra(s) relación(es)”. (3.3.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de un Ítem de imágenes en movimiento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Œuvre ou de ses Variantes. (2.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Manifestation. Des instances de tout type d'Événement peuvent avoir des relations d'Agent et d'« Autres ». (3.3.2) Un Événement caractérise des occurrences dans le cycle de vie d’un Item."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasExtent",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.5, 3.1.5.8"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.5, 3.1.5.8"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Extent"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Extensión"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Étendue"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Extent"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.5) The concept of extent as applied to Manifestations is the “ideal” logical, physical, or temporal(duration) units and not a description of a real physical object. (3.1.5.8)The actual physical / digital extent is a characteristic of a singular Item, since it can be different for multiple Items exemplifying the same moving image Manifestation."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.5) El concepto de extensión tal como se aplica en las Manifestaciones se refiere a las unidades lógicas, físicas o temporales (duración) “ideales”; y no a la descripción de un objeto físico real. (3.1.5.8) La extension física y/o digital es una característica de un Ítem específico, ya que puede diferir de múltiples Ítems ejemplificando a la misma Manifestación de imágenes en movimiento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.5) Le concept d'étendue appliqué à la Manifestation désigne des unités logiques, matérielles ou temporelles (durée) « idéales » et non celles d'un objet physique réel. (3.1.5.8) L'étendue matérielle/numérique réelle caractérise un Item en particulier et peut être différente pour chaque Item distinct représentant un exemplaire d'une même Manifestation."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasFrameRate",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.12"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.12"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.12"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Frame Rate"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Velocidad de Cuadros"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Cadence"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#float"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.12) Frame rate is the native frame rate for the Item."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.12) La velocidad de cuadros es la velocidad originaria del Ítem."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.12) Il s'agit de la cadence d'origine de l'item."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasHoldingInstitution",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Holding Institution"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Institución Propietaria"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Établissement Détenteur"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/HoldingInstitution"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.3) Record the name of the institution possessing the moving image Item or authorised to make it available."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.3) Registre el nombre de la institución que posee el Ítem de imágenes en movimiento o que está autorizada para hacerlo disponible."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.3) Enregistrez le nom de l'institution qui détient l'Item ou qui est autorisé à le mettre à disposition."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasIdentifier",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Identifier"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Identificador"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Identifiant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Identifier"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.1.1) If an institution's system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. (2.3.1.1) If an institution’s system allows, as with the Work/Variant Identifiers a “Type” can be applied with an Identifier to define the source of the Identifier. (3.1.1.1) If an institution’s system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. Examples: Barcode, Shelf mark, Accession number."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.1.1) Si una institución lo permite, un “Tipo” puede aplicarse con un identificador para definir la fuente del identificador. (2.3.1.1) Si el Sistema institucional lo permite, así como con los identificadores de Obra/Variante, se puede aplicar un atributo para definir la fuente del Identificador. (3.1.1.1) Si el sistema institucional lo permite, puede agregar un elemento que defina la fuente del Identificador, por ejemplo: código de barras, código de estantería, número de acceso."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.1.1) Si le système de gestion de l'institution le permet, un « type » peut être associé à l'identifiant afin d'en définir la source. (2.3.1.1) Si le système de l'institution le permet, comme dans le cas des identifiants d'Œuvres/Variantes, un « type » peut être appliqué à un identifiant pour en indiquer la source. (3.1.1.1) Si le système de l'institution le permet, un « type » peut être appliqué à un identifiant pour en définir la source. Exemples : code-barres, numéro d'étagère, numéro d'entrée."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasLineStandard",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.19"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.19"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.19"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Line Standard"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Norma de Líneas"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Des Lignes de Balayage"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.19) Describes the number of scan lines which make up the image and indicates the resolution, for example, 405, 525, 1080."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.19) Describe el número de líneas escaneadas que estructuran la imágen e indica la resolución, por ejemplo, 405, 525, 1080."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.19) Cette notion décrit le nombre de lignes de balayage qui constituent l’image et indique la résolution, p. ex. 405, 525, 1080."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasProjectionCharacteristic",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.2, 3.1.5.9"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.4.2, 3.1.5.9"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Projection Characteristic"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Característica de Proyección"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Caractéristique de Projection"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/ProjectionCharacteristic"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.4.2) The projection characteristics of a Manifestation include aspect ratio and aperture or image format. (3.1.5.9) The projection characteristics of a Manifestation/Item include aspect ratio and aperture or image format."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.4.2) Las características de proyección de una Manifestación incluyen la proporción dimensional y la apertura o formato de imagen. (3.1.5.9) Las características de proyección de una Manifestación/Ítem pueden incluir la proporción dimensional y el formato de imagen o apertura."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.4.2) Les caractéristiques de projection d'une Manifestation comprennent le ratio et l'ouverture ou format de l'image. (3.1.5.9) Les caractéristiques de projection d'une Manifestation/d'un Item comprennent le ratio et l'ouverture ou format de l'image."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasResolution",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.18"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.18"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.18"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Resolution"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Resolución"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Résolution"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Resolution"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.18) Note whether the Item's resolution is Standard Definition, High Definition, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.18) Registre si la resolución del Ítem corresponde a Definición Regular(Standard Definition), Alta Definición(High Definition), etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.18) Indiquez si la résolution de l'Item est en définition standard, en haute définition, etc."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasSoundCharacteristic",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.3, 3.1.5.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3, 3.1.5.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.4.3, 3.1.5.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Sound Characteristic"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Características de Sonido"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Caractéristique Sonores"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/SoundCharacteristic"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.4.3) Sound characteristics are technical specifications relating to the placement of sound on a Manifestation. (3.1.5.3) Technical specifications relating to the fixation of sound in a moving image Manifestation/Item."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.4.3) Las características de sonido son especificaciones técnicas relacionadas con la colocación del sonido en la Manifestación. (3.1.5.3) Las especificaciones técnicas relativas a la fijación del sonido en una Manifestación/Ítem."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.4.3) Les caractéristiques sonores sont des spécifications techniques relatives à l'emplacement du son sur une Manifestation. (3.1.5.3) Il s'agit des spécifications techniques relatives à la fixation du son sur une Manifestation/un Item."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasSourceDevice",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.21"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.21"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.21"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Source Device"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Dispositivo para Reproducción"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Périphérique de Lecture"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/SourceDevice"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.21) Record the source playback device used in transfer projects. This can be a video deck, film printer, or hardware."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.21) Registre el dispositivo fuente de reproducción utilizado en proyectos de transferencia. Este puede corresponder al tablero de video, la impresora de película o el equipo de computadora."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.21) Indiquez les appareils utilisés dans les projets de transfert. Il peut s'agir d'une station vidéo, d'une tireuse cinématographique ou de matériel informatique."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasSourceSoftware",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.22"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.22"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.22"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Source Software"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Software Fuente"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Logiciel"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/SourceSoftware"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.22) Record the source software used in playing a digital file."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.22) Registre el software que se requiere para reproducir un archivo digital."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.22) Indiquez le logiciel utilisé pour lire un fichier numérique."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasStatus",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Status"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Estado"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Statut"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Status"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.2) Description of the preservation or access status of the Item, for example Master, Viewing, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.2) Descripción del estado de preservación o el estado de acceso del Ítem, por ejemplo: máster, visualización, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.2) Il s'agit de la description du statut de conservation ou d'accès de l'Item, p. ex. Master, copie de visionnage, etc."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasStock",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.14"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.14"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.14"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Stock"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Stock"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Marque du Support"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Stock"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.14) Describes the specific stock/brand on which the Item is captured, for example, Eastman Kodak, Fuji, 3M, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.14) Describe el tipo o la marca comercial específica sobre la que se ha capturado el Ítem, por ejemplo, Eastman Kodak, Fuji, 3M, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.14) Décrit la marque spécifique du support sur lequel l'Item est fixé, par exemple, Eastman Kodak, Fuji, 3M, etc."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasStorageLocation",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.6.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.6.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.6.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Storage Location"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Localización del Ítem"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Localisation de l'Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#string"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.6.2) Item descriptions should indicate a storage location number in order to provide access and retrieval."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.6.2) Las descripciones de Ítems deben indicar un número de localización de almacenaje con el propósito de proveer acceso y recuperación"
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.6.2) Les notices d'Items doivent indiquer un numéro d'emplacement afin de permettre d'y accéder et de les localiser."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasStream",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "Glossary of Technical Terms TRACK (2)"
+            },
+            {
+                "@language": "es",
+                "@value": "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"
+            },
+            {
+                "@language": "fr",
+                "@value": "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Stream"
+            },
+            {
+                "@language": "es",
+                "@value": "[NEEDS TRANSLATION] Tiene Stream"
+            },
+            {
+                "@language": "fr",
+                "@value": "[NEEDS TRANSLATION] A Un Flux d'Images"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Stream"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
+            },
+            {
+                "@language": "es",
+                "@value": "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
+            },
+            {
+                "@language": "fr",
+                "@value": "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasTitle",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Item"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Title"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Título"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Titre"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Title"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.2.1) Where relevant for an institution, if the Work/Variant or Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant Variant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (2.3.2.1) Where relevant for an institution, if the Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (3.1.2.1) Note the source of title information."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.2.1) Si la Obra, Variante o Manifestación incluye múltiples títulos, relevantes para la institución, tales como un título en otro idioma de una variante doblada o subtitulada; registre las variantes del título y asocie cada título con “Tipo de Título” para diferenciar entre los varios tipos de Títulos. (2.3.2.1) Cuando sea relevante para una institución, si la Manifestación incluye multiples títulos, tales como un título en otro idioma para una variante doblada o subtitulada, entonces, registre los títulos relevantes y asocie un “Tipo de Título” a cada uno de éstos para diferenciarlos. (3.1.2.1) Anote la fuente de información del título."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.2.1) Le cas échéant, si l'Œuvre/la Variante ou la Manifestation comporte des titres multiples, tels qu'un titre dans une autre langue pour une Variante doublée ou sous-titrée, enregistrez les titres alternatifs pertinents et associez pour chacun un «type de titre» pour les différencier. (2.3.2.1) Si la Manifestation comprend plusieurs titres, tels que le titre dans une autre langue pour une Variante doublée ou sous-titrée, vous pouvez enregistrer les différents titres et leur associer à chacun un «type de titre » pour les différencier. (3.1.2.1) Enregistrez la source d'information."
+            }
+        ]
+    }
+]

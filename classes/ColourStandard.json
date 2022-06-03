@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/ColourStandard",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.4"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.4"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.4.4"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Colour Standard"
+            },
+            {
+                "@language": "es",
+                "@value": "Estándar de Color"
+            },
+            {
+                "@language": "fr",
+                "@value": "Procédé Couleur"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.4.4) Optionally, if considered relevant, describe the system or process by which colour is fixed on the carrier or as part of the digital encoding, for example, Pathécolor, Technicolor, RGB, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.4.4) Optativamente, si se considera relevante, describa el sistema o proceso mediante el cual se fijó el color en el portador o como parte de la codificación digital, por ejemplo, Pathécolor, Technicolor, RGB, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.4.4) Le cas échéant, décrivez le procédé de fixation de la couleur sur le support ou son encodage numérique, par exemple, Pathécolor, Technicolor, RVB, etc."
+            }
+        ]
+    }
+]

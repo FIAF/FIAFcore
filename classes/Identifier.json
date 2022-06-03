@@ -1,0 +1,108 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Identifier",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Identifier"
+            },
+            {
+                "@language": "es",
+                "@value": "Identificador"
+            },
+            {
+                "@language": "fr",
+                "@value": "Identifiant"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.1.1) If an institution's system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. (2.3.1.1) If an institution’s system allows, as with the Work/Variant Identifiers a “Type” can be applied with an Identifier to define the source of the Identifier. (3.1.1.1) If an institution’s system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. Examples: Barcode, Shelf mark, Accession number."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.1.1) Si una institución lo permite, un “Tipo” puede aplicarse con un identificador para definir la fuente del identificador. (2.3.1.1) Si el Sistema institucional lo permite, así como con los identificadores de Obra/Variante, se puede aplicar un atributo para definir la fuente del Identificador. (3.1.1.1) Si el sistema institucional lo permite, puede agregar un elemento que defina la fuente del Identificador, por ejemplo: código de barras, código de estantería, número de acceso."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.1.1) Si le système de gestion de l'institution le permet, un « type » peut être associé à l'identifiant afin d'en définir la source. (2.3.1.1) Si le système de l'institution le permet, comme dans le cas des identifiants d'Œuvres/Variantes, un « type » peut être appliqué à un identifiant pour en indiquer la source. (3.1.1.1) Si le système de l'institution le permet, un « type » peut être appliqué à un identifiant pour en définir la source. Exemples : code-barres, numéro d'étagère, numéro d'entrée."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasIdentifierText",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.1, 2.3.1, 3.1.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.1, 2.3.1, 3.1.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Identifier"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Identifier Text"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Texto de Identificador"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Texte d'Identification"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#string"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.1) Create an unambiguous reference to the Work/Variant using a unique identifier and indicate the type of identifier. (2.3.1) Create an unambiguous reference to the Manifestation, such as a specific standard number issued by an official body (i.e. V-ISAN87 or DOI88), or a system-automated assigned ID number. (3.1.1) Create an unambiguous numerical or alphanumerical reference to the moving image Item, such as a call number, barcode, shelf mark or similar, to uniquely identify the copy."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.1) Se crea una referencia sin ambigüedad hacia una Obra/Variante mediante la utilización de un identificador único y se indica el tipo de identificador. (2.3.1) Elabore una referencia sin ambiguedad hacia la Manifestación, tal como el número de una norma específica emitido por una entidad oficial (i.e. V-ISAN o DOI), o el número ID generado por un sistema automatizado. (3.1.1) Elabore un identificador numérico o una referencia sin ambigüedad para el Ítem de imágenes en movimiento, tales como una signatura topográfica, código de barras, marca de estantería o similar, para identificar a la copia de manera unívoca."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.1) Créez pour l'Œuvre/la Variante un identifiant unique et indiquez le type d'identifiant. (2.3.1) Créez une référence unique pour la Manifestation, telle qu'un numéro standard délivré par un organisme officiel (par exemple V-ISAN87 ou DOI88), ou un ID automatiquement généré. (3.1.1) Créez une référence numérique ou alphanumérique unique pour l'Item, telle qu'une cote, un codebarres, une marque sur une étagère ou autre, requis pour identifier de manière unique la copie."
+            }
+        ]
+    }
+]

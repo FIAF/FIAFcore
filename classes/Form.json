@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Form",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Form"
+            },
+            {
+                "@language": "es",
+                "@value": "Forma"
+            },
+            {
+                "@language": "fr",
+                "@value": "Forme"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.3) Form describes the format and/or purpose of a Work, e.g., “non-fiction”, “short” and “animation” are particular forms or identifiers."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.3) Un término de Forma describe el formato y/o propósito de una Obra (por ejemplo, “no-ficción”, “cortos” y “animación” son formas particulares o identificadores"
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.3) La forme décrit le format et/ou la caractérisation d'une Œuvre, p. ex. « non-fiction », « court métrage » et « animation » sont des formes ou des identifiants"
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Genre",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Genre"
+            },
+            {
+                "@language": "es",
+                "@value": "Género"
+            },
+            {
+                "@language": "fr",
+                "@value": "Genre"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.3) Genre describes categories of Works, characterized by similar plots, themes, settings, situations, and characters. Examples of genres are “westerns” and “thrillers”."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.3) Los términos de Género describen categorías de Obras, caracterizadas por tramas, temas, ambientación o situaciones y personajes similares. Son ejemplos de géneros los “westerns” y “thrillers”."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.3) Le genre décrit des catégories d'Œuvres, caractérisées par des intrigues, des thèmes, des décors, des situations et des personnages similaires. Des exemples de genres sont les « westerns » et les « thrillers »."
+            }
+        ]
+    }
+]

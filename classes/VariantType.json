@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/VariantType",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.2.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.2.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.2.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Variant Type"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Variante"
+            },
+            {
+                "@language": "fr",
+                "@value": "Type de Variante"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.2.2) Identify and describe the kind of change from a Work that gives rise to any instance(s) of a Variant."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.2.2) Identifique y describa el tipo de cambio a partir de una Obra de la que ha surgido una Variante."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.2.2) Identifiez et décrivez le type de changement par rapport à une Œuvre qui donne lieu à une ou plusieurs Variante(s)."
+            }
+        ]
+    }
+]

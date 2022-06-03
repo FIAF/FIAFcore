@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Element",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.4"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.4"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.4"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Element"
+            },
+            {
+                "@language": "es",
+                "@value": "Elemento"
+            },
+            {
+                "@language": "fr",
+                "@value": "Type"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.4) Record the nature or function of the moving image Item, describing its place in thephotochemical or digital production or duplication process, for example, “original negative,” “duplicate negative,” etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.4) Registre la naturaleza o función del Ítem de imágenes en movimiento, describiendo su lugar en la producción fotoquímica o digital o en el proceso de duplicación, por ejemplo, “negativo original”, “negativo duplicado”, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.4) Enregistrez la nature ou la fonction de l'Item, en décrivant sa place dans les procédés de production ou de duplication photochimique ou numérique, par exemple, « négatif original », « contretype négatif », etc."
+            }
+        ]
+    }
+]

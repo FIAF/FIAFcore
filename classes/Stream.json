@@ -1,0 +1,224 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Stream",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "Glossary of Technical Terms TRACK (2)"
+            },
+            {
+                "@language": "es",
+                "@value": "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"
+            },
+            {
+                "@language": "fr",
+                "@value": "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Stream"
+            },
+            {
+                "@language": "es",
+                "@value": "[NEEDS TRANSLATION] Stream"
+            },
+            {
+                "@language": "fr",
+                "@value": "[NEEDS TRANSLATION] Stream"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
+            },
+            {
+                "@language": "es",
+                "@value": "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
+            },
+            {
+                "@language": "fr",
+                "@value": "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasAudioCodec",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.17"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.17"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.17"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Stream"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Audio Codec"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Codificación de Audio"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Codec Audio"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/AudioCodec"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.17) The audio compression standard used in the audio file, whether it is contained in a wrapper with a video file or as a standalone audio file."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.17) Se refiere a la norma de compresión de audio aplicada en el archivo de audio, ya sea que esté contenida en conjunto con el video o como un archivo de audio independiente."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.17) Il s'agit du standard de compression audio utilisé dans un fichier son, qu'il soit dans un format conteneur avec un fichier vidéo ou qu'il existe en tant que fichier audio distinct."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasBitDepth",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.20"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.20"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.20"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Stream"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Bit Depth"
+            },
+            {
+                "@language": "es",
+                "@value": "Tienne Cantidad de Bits"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Profondeur de Bit"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#float"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.20) Note that bit depth can be used in describing both video and audio files."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.20) Nótese que la Cantidad de Bits puede utilizarse para describir tanto archivos de video como archivos de audio."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.20) Il est à noter que la profondeur de bit peut s'appliquer tant à l'image qu'au son."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasVideoCodec",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.16"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.16"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.16"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Stream"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Video Codec"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Codificación de Video"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Codec Video"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/VideoCodec"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.16) The video compression standard used in the digital video Item, for example, D10, MP4, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.16) La norma de compresión de video usada en un Ítem de video digital, por ejemplo, D10, MP4, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.16) Il s'agit du standard de compression vidéo utilisé dans l'Item vidéo numérique, par exemple, D10, MP4, etc."
+            }
+        ]
+    }
+]

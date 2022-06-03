@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/BroadcastStandard",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.10"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.10"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.10"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Broadcast Standard"
+            },
+            {
+                "@language": "es",
+                "@value": "Norma de Transmisión de Video"
+            },
+            {
+                "@language": "fr",
+                "@value": "Standard de Télédiffusion"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.10) The broadcast standard for a video or DVD/BluRay: NTSC, PAL, SECAM."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.10) La norma de transmisión de video o DVD / BluRay puede ser: NTSC, PAL, SECAM."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.10) Il s'agit des standards de codage pour les vidéos ou DVD/Blu-ray : NTSC, PAL, SECAM."
+            }
+        ]
+    }
+]

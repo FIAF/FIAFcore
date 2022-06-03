@@ -1,0 +1,108 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Extent",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.5, 3.1.5.8"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.5, 3.1.5.8"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Extent"
+            },
+            {
+                "@language": "es",
+                "@value": "Extensión"
+            },
+            {
+                "@language": "fr",
+                "@value": "Étendue"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.5) The concept of extent as applied to Manifestations is the“ ideal” logical, physical, or temporal(duration) units and not a description of a real physical object. (3.1.5.8)The actual physical / digital extent is a characteristic of a singular Item, since it can be different for multiple Items exemplifying the same moving image Manifestation."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.5) El concepto de extensión tal como se aplica en las Manifestaciones se refiere a las unidades lógicas, físicas o temporales (duración) “ideales”; y no a la descripción de un objeto físico real. (3.1.5.8) La extension física y/o digital es una característica de un Ítem específico, ya que puede diferir de múltiples Ítems ejemplificando a la misma Manifestación de imágenes en movimiento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.5) Le concept d'étendue appliqué à la Manifestation désigne des unités logiques, matérielles ou temporelles (durée) « idéales » et non celles d'un objet physique réel. (3.1.5.8) L'étendue matérielle/numérique réelle caractérise un Item en particulier et peut être différente pour chaque Item distinct représentant un exemplaire d'une même Manifestation."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasExtentValue",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.5, 3.1.5.8"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF  2.3.5, 3.1.5.8"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Extent"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Extent Value"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Valor de Extensión"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Valeur d'Étendue"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#float"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.8) Having separate numeric fields can facilitate calculations in determining the amount of footage that will be preserved. For digital files, enter the numerical measurement indicating the size of the digital asset’s file(s), in KB, MB, GB, or TB."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.8) Tener campos numéricos separados puede facilitar los cálculos para determinar la cantidad de metraje que será preservada. Para archivos digitales, registre la medida numérica que indique el tamaño de los mismos en KB, MB, GB o TB."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.8) Le fait d'avoir des champs numériques séparés peut faciliter les calculs quand il faut déterminer la quantité de métrage à préserver. Pour les fichiers numériques, enregistrez le poids du fichier numérique en Ko, Mo, Go ou To."
+            }
+        ]
+    }
+]

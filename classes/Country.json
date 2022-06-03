@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Country",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Country"
+            },
+            {
+                "@language": "es",
+                "@value": "País"
+            },
+            {
+                "@language": "fr",
+                "@value": "Pays"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.3) Where known and applicable, record the geographic origin of the moving image Work/Variant."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.3) Cuando se conozca y aplique el caso, registre el origen geográfico de la Obra o Variante de imágenes en movimiento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.3) Si elle est connue, enregistrez l'origine géographique de l'Œuvre/de la Variante."
+            }
+        ]
+    }
+]

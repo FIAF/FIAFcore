@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Location",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual D.4.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento D.4.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF D.4.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Location"
+            },
+            {
+                "@language": "es",
+                "@value": "Localidad"
+            },
+            {
+                "@language": "fr",
+                "@value": "Lieu"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(D.4.3) Any geographic name(s) or address(es) of the location(s) where the event took place"
+            },
+            {
+                "@language": "es",
+                "@value": "(D.4.3) Cualquier nombre(s) geográfico(s) o dirección(es) de la(s) ubicación(es) donde tuvo lugar el evento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(D.4.3) Tout/tous nom(s) ou adresse(s) du ou des lieu(x) où l'événement s'est déroulé. "
+            }
+        ]
+    }
+]

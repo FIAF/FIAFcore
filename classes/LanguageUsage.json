@@ -1,0 +1,108 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/LanguageUsage",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.5.2, 2.3.3.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.5.2, 2.3.3.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.5.2, 2.3.3.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Language Usage"
+            },
+            {
+                "@language": "es",
+                "@value": "Uso del Idioma"
+            },
+            {
+                "@language": "fr",
+                "@value": "Utilisation de Langue"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.5.2) Record the usage type of a language (e.g. spoken, intertitles, subtitles, etc.) by taking the most suitable term from a controlled list elaborated in-house or referring to an existing authoritative list. (2.3.3.2) More than one language can occur in different forms, depending on how the content is expressed: the usage type of the languages defines the form with which the language is expressed, for example, spoken, sung, written, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.5.2) Registre el Tipo de uso de un idioma (por ejemplo: hablada, intertítulos, subtítulos, etc.); tomando el término más adecuado de una lista controlada elaborada en la institución o con referencia a una lista autorizada. (2.3.3.2) Un idioma puede presentarse en más de una forma, dependiendo del contexto: el Tipo de uso del idioma define su expresión, por ejemplo: hablado, cantado, escrito, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.5.2) Enregistrez le type d'utilisation d'une langue (p. ex. parlée, intertitres, sous-titres, etc.) en choisissant le terme le plus approprié à partir d'une liste contrôlée interne ou en vous référant à une liste d'autorité existante. (2.3.3.2) Il est possible que plusieurs langues apparaissent dans la Manifestation, selon la façon dont le contenu se présente. Le type d'utilisation des langues définit la forme sous laquelle la langue est exprimée, par exemple, parlée, chantée, écrite, etc."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasLanguage",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.5.1, 2.3.3.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.5.1, 2.3.3.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.5.1, 2.3.3.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/LanguageUsage"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Language"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Idioma"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Langue"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Language"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.5.1) Record the language(s) by taking the most suitable value(s) from a controlled list of languages. (2.3.3.1) Where possible, record the language(s) using the full form of name, e.g., French, Italian, etc. rather than abbreviations or codes, by taking the most suitable value(s) from a controlled list."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.5.1) Registre el(los) idioma(s) tomando el(los) valor(es) más apropiados de una lista controlada de idiomas. (2.3.3.1) Cuando sea posible, registre el(los) idioma(s) utilizando la forma completa del nombre, por ejemplo, francés, italiano, etc. en lugar de abreviaturas o códigos."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.5.1) Enregistrez le(s) langue(s) en choisissant la valeur la plus juste dans une liste contrôlée. (2.3.3.1) Dans la mesure du possible, enregistrez la ou les langue(s) en utilisant la forme complète, p. ex. français, italien, etc. plutôt que des abréviations ou des codes, en choisissant la ou les valeur(s) les plus appropriées dans une liste contrôlée."
+            }
+        ]
+    }
+]

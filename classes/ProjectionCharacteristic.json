@@ -1,0 +1,108 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/ProjectionCharacteristic",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.2, 3.1.5.9"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.4.2, 3.1.5.9"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Projection Characteristic"
+            },
+            {
+                "@language": "es",
+                "@value": "Característica de Proyección"
+            },
+            {
+                "@language": "fr",
+                "@value": "Caractéristique de Projection"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.4.2) The projection characteristics of a Manifestation include aspect ratio and aperture or image format. (3.1.5.9) The projection characteristics of a Manifestation/Item include aspect ratio and aperture or image format."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.4.2) Las características de proyección de una Manifestación incluyen la proporción dimensional y la apertura o formato de imagen. (3.1.5.9) Las características de proyección de una Manifestación/Ítem pueden incluir la proporción dimensional y el formato de imagen o apertura."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.4.2) Les caractéristiques de projection d'une Manifestation comprennent le ratio et l'ouverture ou format de l'image. (3.1.5.9) Les caractéristiques de projection d'une Manifestation/d'un Item comprennent le ratio et l'ouverture ou format de l'image."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasProjectionCharacteristicValue",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.2, 3.1.5.9"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.4.2, 3.1.5.9"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/ProjectionCharacteristic"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Projection Characteristic Value"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Valor Característico de Proyección"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Valeur de Caractéristique de Projection"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#float"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.4.2) The aspect ratio (also known as projection ratio) is the projected image area visible on screen, expressed as a value of width to height (the value of height always being “1”)."
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.4.2) La proporción dimensional (también conocida como relación de aspecto) es el área visible de una imagen proyectada sobre una pantalla, y se expresa como el valor del ancho por el alturo (el valor de la altura siempre se expresa con el valor “1”)."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.4.2) Le ratio est la surface de l'image projetée visible à l'écran, exprimée en rapport entre la largeur et la hauteur de l'image (la valeur de la hauteur étant toujours « 1 »), par exemple, 2.34:1, 2.39:1."
+            }
+        ]
+    }
+]

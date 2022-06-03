@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Base",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.13"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.13"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.13"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Base"
+            },
+            {
+                "@language": "es",
+                "@value": "Base"
+            },
+            {
+                "@language": "fr",
+                "@value": "Base"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.13) The physical material or video format on which the Item is captured, for example, describing the flexible transparent material that supports a film items’ emulsion or a magnetic track, (e.g., acetate, nitrate, CTA, etc.)."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.13) El material físico o el formato de video sobre el que se ha capturado el Ítem, por ejemplo, la descripción del material flexible transparente que soporta la emulsión de la película de un Ítem o una pista magnética (por ejemplo, acetato, nitrato, CTA, etc.)"
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.13) Le matériel physique ou le format vidéo sur lequel l’Item est fixé, décrivant par exemple le support souple et transparent sur lequel est fixée l’émulsion d’un film ou d’une bande magnétique (p. ex. acétate, nitrate, triacétate, etc.)."
+            }
+        ]
+    }
+]

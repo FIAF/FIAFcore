@@ -1,0 +1,572 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Variant",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.0.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.0.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.0.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Variant"
+            },
+            {
+                "@language": "es",
+                "@value": "Variante"
+            },
+            {
+                "@language": "fr",
+                "@value": "Variante"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.0.2) A moving image Variant is an entity that may be used to indicate any change to content-related characteristics that do not significantly change the overall content of a Work as a whole."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.0.2) Una Variante de imágenes en movimiento es una entidad que puede usarse para indicar cualquier cambio en las características relativas al contenido, que no modifican de manera significativa el contenido general de una obra como un todo."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.0.2) Une Variante est une entité utilisée pour indiquer tout changement dans les caractéristiques liées au contenu, qui ne modifie pas de façon significative le contenu global d'une Œuvre dans son ensemble."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasCountry",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Country"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene País"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Pays"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Country"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.3) Where known and applicable, record the geographic origin of the moving image Work/Variant."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.3) Cuando se conozca y aplique el caso, registre el origen geográfico de la Obra o Variante de imágenes en movimiento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.3) Si elle est connue, enregistrez l'origine géographique de l'Œuvre/de la Variante."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasEvent",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.2, 2.4.2, 3.3.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.2, 2.4.2, 3.3.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Event"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Evento"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Événement"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Event"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.2) An Event characterises occurrences in the lifecycle of a moving image Work or its Variants. (2.4.2) An Event characterises occurrences in the life cycle of a moving image Manifestation. Instances of any Event type can have Agent and Other relationships. (3.3.2) An Event characterises occurrences in the life cycle of a moving image Item."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.2) Un Evento caracteriza ocurrencias en el ciclo de vida de una Obra de imágenes en movimiento o sus Variantes. (2.4.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de una Manifestación de imágenes en movimiento. Así, cualquier tipo de Evento pueden tener relaciones con Agente(s) y con “Otra(s) relación(es)”. (3.3.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de un Ítem de imágenes en movimiento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Œuvre ou de ses Variantes. (2.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Manifestation. Des instances de tout type d'Événement peuvent avoir des relations d'Agent et d'« Autres ». (3.3.2) Un Événement caractérise des occurrences dans le cycle de vie d’un Item."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasForm",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Form"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Forma"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Forme"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Form"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.3) Form describes the format and/or purpose of a Work, e.g., “non-fiction”, “short” and “animation” are particular forms or identifiers."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.3) Un término de Forma describe el formato y/o propósito de una Obra (por ejemplo, “no-ficción”, “cortos” y “animación” son formas particulares o identificadores"
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.3) La forme décrit le format et/ou la caractérisation d'une Œuvre, p. ex. « non-fiction », « court métrage » et « animation » sont des formes ou des identifiants"
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasGenre",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Genre"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Género"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Genre"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Genre"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.3) Genre describes categories of Works, characterized by similar plots, themes, settings, situations, and characters. Examples of genres are “westerns” and “thrillers”."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.3) Los términos de Género describen categorías de Obras, caracterizadas por tramas, temas, ambientación o situaciones y personajes similares. Son ejemplos de géneros los “westerns” y “thrillers”."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.3) Le genre décrit des catégories d'Œuvres, caractérisées par des intrigues, des thèmes, des décors, des situations et des personnages similaires. Des exemples de genres sont les « westerns » et les « thrillers »."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasIdentifier",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Identifier"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Identificador"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Identifiant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Identifier"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.1.1) If an institution's system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. (2.3.1.1) If an institution’s system allows, as with the Work/Variant Identifiers a “Type” can be applied with an Identifier to define the source of the Identifier. (3.1.1.1) If an institution’s system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. Examples: Barcode, Shelf mark, Accession number."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.1.1) Si una institución lo permite, un “Tipo” puede aplicarse con un identificador para definir la fuente del identificador. (2.3.1.1) Si el Sistema institucional lo permite, así como con los identificadores de Obra/Variante, se puede aplicar un atributo para definir la fuente del Identificador. (3.1.1.1) Si el sistema institucional lo permite, puede agregar un elemento que defina la fuente del Identificador, por ejemplo: código de barras, código de estantería, número de acceso."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.1.1) Si le système de gestion de l'institution le permet, un « type » peut être associé à l'identifiant afin d'en définir la source. (2.3.1.1) Si le système de l'institution le permet, comme dans le cas des identifiants d'Œuvres/Variantes, un « type » peut être appliqué à un identifiant pour en indiquer la source. (3.1.1.1) Si le système de l'institution le permet, un « type » peut être appliqué à un identifiant pour en définir la source. Exemples : code-barres, numéro d'étagère, numéro d'entrée."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasLanguageUsage",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.5.2, 2.3.3.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.5.2, 2.3.3.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.5.2, 2.3.3.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Language Usage"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Uso del Idioma"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Utilisation de Langue"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/LanguageUsage"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.5.2) Record the usage type of a language (e.g. spoken, intertitles, subtitles, etc.) by taking the most suitable term from a controlled list elaborated in-house or referring to an existing authoritative list. (2.3.3.2) More than one language can occur in different forms, depending on how the content is expressed: the usage type of the languages defines the form with which the language is expressed, for example, spoken, sung, written, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.5.2) Registre el Tipo de uso de un idioma (por ejemplo: hablada, intertítulos, subtítulos, etc.); tomando el término más adecuado de una lista controlada elaborada en la institución o con referencia a una lista autorizada. (2.3.3.2) Un idioma puede presentarse en más de una forma, dependiendo del contexto: el Tipo de uso del idioma define su expresión, por ejemplo: hablado, cantado, escrito, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.5.2) Enregistrez le type d'utilisation d'une langue (p. ex. parlée, intertitres, sous-titres, etc.) en choisissant le terme le plus approprié à partir d'une liste contrôlée interne ou en vous référant à une liste d'autorité existante. (2.3.3.2) Il est possible que plusieurs langues apparaissent dans la Manifestation, selon la façon dont le contenu se présente. Le type d'utilisation des langues définit la forme sous laquelle la langue est exprimée, par exemple, parlée, chantée, écrite, etc."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasManifestation",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.6"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.6"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.6"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Manifestation"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Manifestación"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Manifestation"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Manifestation"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.6) Express the relationship between a moving image Work or Variant and a moving image Manifestation (e.g., Part/part of). Describe or demonstrate Work-to-Manifestation relationships through linking to the Work identifier, through the usage of relator terms, or according to the confines of your data structure."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.6) Exprese la relación entre una Obra o Variante de imágenes en movimiento y una Manifestación (por ejemplo, “parte/parte de”). Describa o demuestre las relaciones “Obra con Manifestación” mediante la vinculación con el identificador de la Obra, a través del uso de términos de relación o de acuerdo con los confínes de su estructura de datos."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.6) Exprimez la relation entre une Œuvre ou une Variante et une Manifestation (p. ex., contient/est contenu dans). Décrivez ou rendez visibles les relations entre l'Œuvre et la Manifestation en faisant un lien vers l'identifiant de l'Œuvre, en qualifiant les relations ou selon les possibilités offertes par la structure des données de l'institution."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasTitle",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Title"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Título"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Titre"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Title"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.3.2.1) Where relevant for an institution, if the Work/Variant or Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant Variant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (2.3.2.1) Where relevant for an institution, if the Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (3.1.2.1) Note the source of title information."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.3.2.1) Si la Obra, Variante o Manifestación incluye múltiples títulos, relevantes para la institución, tales como un título en otro idioma de una variante doblada o subtitulada; registre las variantes del título y asocie cada título con “Tipo de Título” para diferenciar entre los varios tipos de Títulos. (2.3.2.1) Cuando sea relevante para una institución, si la Manifestación incluye multiples títulos, tales como un título en otro idioma para una variante doblada o subtitulada, entonces, registre los títulos relevantes y asocie un “Tipo de Título” a cada uno de éstos para diferenciarlos. (3.1.2.1) Anote la fuente de información del título."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.3.2.1) Le cas échéant, si l'Œuvre/la Variante ou la Manifestation comporte des titres multiples, tels qu'un titre dans une autre langue pour une Variante doublée ou sous-titrée, enregistrez les titres alternatifs pertinents et associez pour chacun un «type de titre» pour les différencier. (2.3.2.1) Si la Manifestation comprend plusieurs titres, tels que le titre dans une autre langue pour une Variante doublée ou sous-titrée, vous pouvez enregistrer les différents titres et leur associer à chacun un «type de titre » pour les différencier. (3.1.2.1) Enregistrez la source d'information."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasVariantType",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.2.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.2.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.2.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Variant"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Variant Type"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Tipo de Variante"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Type de Variante"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/VariantType"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.2.2) Identify and describe the kind of change from a Work that gives rise to any instance(s) of a Variant."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.2.2) Identifique y describa el tipo de cambio a partir de una Obra de la que ha surgido una Variante."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.2.2) Identifiez et décrivez le type de changement par rapport à une Œuvre qui donne lieu à une ou plusieurs Variante(s)."
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/SourceSoftware",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.22"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.22"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.22"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Source Software"
+            },
+            {
+                "@language": "es",
+                "@value": "Software Fuente"
+            },
+            {
+                "@language": "fr",
+                "@value": "Logiciel"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.22) Record the source software used in playing a digital file."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.22) Registre el software que se requiere para reproducir un archivo digital."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.22) Indiquez le logiciel utilisé pour lire un fichier numérique."
+            }
+        ]
+    }
+]

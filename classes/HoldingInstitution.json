@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/HoldingInstitution",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Holding Institution"
+            },
+            {
+                "@language": "es",
+                "@value": "Institución Propietaria"
+            },
+            {
+                "@language": "fr",
+                "@value": "Établissement Détenteur"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.3) Record the name of the institution possessing the moving image Item or authorised to make it available."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.3) Registre el nombre de la institución que posee el Ítem de imágenes en movimiento o que está autorizada para hacerlo disponible."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.3) Enregistrez le nom de l'institution qui détient l'Item ou qui est autorisé à le mettre à disposition."
+            }
+        ]
+    }
+]

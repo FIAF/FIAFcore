@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/SourceDevice",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.21"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.21"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.21"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Source Device"
+            },
+            {
+                "@language": "es",
+                "@value": "Dispositivo para reproducción"
+            },
+            {
+                "@language": "fr",
+                "@value": "Périphérique de Lecture"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.21) Record the source playback device used in transfer projects. This can be a video deck, film printer, or hardware."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.21) Registre el dispositivo fuente de reproducción utilizado en proyectos de transferencia. Este puede corresponder al tablero de video, la impresora de película o el equipo de computadora."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.21) Indiquez les appareils utilisés dans les projets de transfert. Il peut s'agir d'une station vidéo, d'une tireuse cinématographique ou de matériel informatique."
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Resolution",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.18"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.18"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.18"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Resolution"
+            },
+            {
+                "@language": "es",
+                "@value": "Resolución"
+            },
+            {
+                "@language": "fr",
+                "@value": "Résolution"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.18) Note whether the Item's resolution is Standard Definition, High Definition, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.18) Registre si la resolución del Ítem corresponde a Definición Regular(Standard Definition), Alta Definición(High Definition), etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.18) Indiquez si la résolution de l'Item est en définition standard, en haute définition, etc."
+            }
+        ]
+    }
+]

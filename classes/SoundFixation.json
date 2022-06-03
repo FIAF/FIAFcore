@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/SoundFixation",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.3.2, 3.1.5.4"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3.2, 3.1.5.4"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 2.3.4.3.2, 3.1.5.4"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Sound Fixation"
+            },
+            {
+                "@language": "es",
+                "@value": "Configuración del Canal de Sonido"
+            },
+            {
+                "@language": "fr",
+                "@value": "Configuration des Canaux Audio"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(2.3.4.3.2) If the Manifestation has sound, note here the track configuration (e.g., mono, stereo, etc.). (3.1.5.4) If the Item has sound, note here the track configuration (e.g., mono, stereo, etc.)"
+            },
+            {
+                "@language": "es",
+                "@value": "(2.3.4.3.2) Si la Manifestación tiene sonido, registre la configuración de la pista (por ejemplo, mono, estéreo, etc.). (3.1.5.4) Si el Ítem tiene sonido, anote aquí la configuración de la pista (por ejemplo, mono, estereo, etc.)."
+            },
+            {
+                "@language": "fr",
+                "@value": "(2.3.4.3.2) Si la Manifestation comporte du son, notez ici la configuration des pistes (par exemple, mono, stéréo, etc.). (3.1.5.4) Si l'Item comporte du son, indiquez ici la configuration des pistes (par exemple, mono, stéréo, etc.)."
+            }
+        ]
+    }
+]

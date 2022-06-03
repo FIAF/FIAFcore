@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/VideoCodec",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.16"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.16"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.16"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Video Codec"
+            },
+            {
+                "@language": "es",
+                "@value": "Codificación de Video"
+            },
+            {
+                "@language": "fr",
+                "@value": "Codec Video"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.16) The video compression standard used in the digital video Item, for example, D10, MP4, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.16) La norma de compresión de video usada en un Ítem de video digital, por ejemplo, D10, MP4, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.16) Il s'agit du standard de compression vidéo utilisé dans l'Item vidéo numérique, par exemple, D10, MP4, etc."
+            }
+        ]
+    }
+]

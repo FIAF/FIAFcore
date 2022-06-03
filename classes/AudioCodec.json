@@ -1,0 +1,50 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/AudioCodec",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.17"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.17"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.17"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Audio Codec"
+            },
+            {
+                "@language": "es",
+                "@value": "Codificación de Audio"
+            },
+            {
+                "@language": "fr",
+                "@value": "Codec audio"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.17) The audio compression standard used in the audio file, whether it is contained in a wrapper with a video file or as a standalone audio file."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.17) Se refiere a la norma de compresión de audio aplicada en el archivo de audio, ya sea que esté contenida en conjunto con el video o como un archivo de audio independiente."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.17) Il s'agit du standard de compression audio utilisé dans un fichier son, qu'il soit dans un format conteneur avec un fichier vidéo ou qu'il existe en tant que fichier audio distinct."
+            }
+        ]
+    }
+]

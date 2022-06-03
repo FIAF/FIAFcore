@@ -1,0 +1,108 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Stock",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.14"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.14"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.14"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Stock"
+            },
+            {
+                "@language": "es",
+                "@value": "Stock"
+            },
+            {
+                "@language": "fr",
+                "@value": "Marque du Support"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.14) Describes the specific stock/brand on which the Item is captured, for example, Eastman Kodak, Fuji, 3M, etc."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.14) Describe el tipo o la marca comercial específica sobre la que se ha capturado el Ítem, por ejemplo, Eastman Kodak, Fuji, 3M, etc."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.14) Décrit la marque spécifique du support sur lequel l'Item est fixé, par exemple, Eastman Kodak, Fuji, 3M, etc."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasStockBatch",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.15"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.15"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.15"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Stock"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Stock Batch"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Lote de Fabricación"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Numéro de Lot"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#string"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.5.15) Identifying the batch number can assist in identifying problems related to specific manufactured batches."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.5.15) La identificación del número de lote puede ayudar a identificar problemas relacionados con lotes manufacturados específicos."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.5.15) Il s'agit du numéro de lot sur lequel l'Item est fixé, qu'il s'agisse de matériel vidéo, audio, optique ou numérique."
+            }
+        ]
+    }
+]

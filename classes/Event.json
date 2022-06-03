@@ -1,0 +1,282 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Event",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.2, 2.4.2, 3.3.2"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.2, 2.4.2, 3.3.2"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Event"
+            },
+            {
+                "@language": "es",
+                "@value": "Evento"
+            },
+            {
+                "@language": "fr",
+                "@value": "Événement"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.2) An Event characterises occurrences in the lifecycle of a moving image Work or its Variants. (2.4.2) An Event characterises occurrences in the life cycle of a moving image Manifestation. Instances of any Event type can have Agent and Other relationships. (3.3.2) An Event characterises occurrences in the life cycle of a moving image Item."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.2) Un Evento caracteriza ocurrencias en el ciclo de vida de una Obra de imágenes en movimiento o sus Variantes. (2.4.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de una Manifestación de imágenes en movimiento. Así, cualquier tipo de Evento pueden tener relaciones con Agente(s) y con “Otra(s) relación(es)”. (3.3.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de un Ítem de imágenes en movimiento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Œuvre ou de ses Variantes. (2.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Manifestation. Des instances de tout type d'Événement peuvent avoir des relations d'Agent et d'« Autres ». (3.3.2) Un Événement caractérise des occurrences dans le cycle de vie d’un Item."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasActivity",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.1.1, 2.4.1.1, 3.3.1.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.1.1, 2.4.1.1, 3.3.1.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Event"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Activity"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Actividad"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Activité"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Activity"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.4.1.1) This describes the activity or role of the Agent in relation to the moving image Work/Variant (e.g. credit terms). (2.4.1.1) Describes the activity of the Agent(s) to make explicit the relationship(s) between the Agent(s) and the Manifestation. (3.3.1.1) Describes the activity of the Agent to make explicit the relationship(s) between the Agent and the Item."
+            },
+            {
+                "@language": "es",
+                "@value": "(1.4.1.1) Este describe la actividad o papel de un agente en relación con la Obra/Variante de imágenes en movimiento (por ejemplo, en los créditos). (2.4.1.1) Describa la actividad del Agente(s) para hacer explícitas las relaciones entre los Agente(s) y la Manifestación. (3.3.1.1) Describe la actividad del Agente al hacer explícita las relaciones entre el Agente y el Ítem."
+            },
+            {
+                "@language": "fr",
+                "@value": "(1.4.1.1) Ce chapitre décrit l'activité ou le rôle de l'Agent en relation avec l'Œuvre/la Variante (p. ex. termes utilisés au générique). (2.4.1.1) Ce champ décrit l'activité de l'Agent afin de rendre explicite la ou les relation(s) entre l'Agent ou les Agents avec la Manifestation. (3.3.1.1) Décrit l'activité de l'Agent afin de rendre explicite la ou les relation(s) entre l'Agent ou les Agents avec l'Item."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasCondition",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.6.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.6.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.6.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Event"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Condition"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Condición"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un État"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Condition"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.6.1) Record the condition of the Item including its base and/or emulsion and/or perforations, where applicable."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.6.1) Registre la condición del Ítem incluída su base y/o emulsión y/o perforaciones, donde sea aplicable."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.6.1) Enregistrez l'état de l'Item, y compris la nature du support et/ou son émulsion et/ou ses perforations, le cas échéant."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasDate",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual D.4.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento D.4.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF D.4.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Event"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Date"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Fecha"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Date"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(D.4.3) The year/date or time-span during which the event took place."
+            },
+            {
+                "@language": "es",
+                "@value": "(D.4.3) El año/fecha o espacio de tiempo donde tuvo lugar el evento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(D.4.3) La date ou période au cours de laquelle l'événement s'est déroulé."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasLocation",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#ObjectProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual D.4.3"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento D.4.3"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF D.4.3"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Event"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Location"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Localidad"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Un Lieu"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "https://fiafcore.org/ontology/Location"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(D.4.3) Any geographic name(s) or address(es) of the location(s) where the event took place"
+            },
+            {
+                "@language": "es",
+                "@value": "(D.4.3) Cualquier nombre(s) geográfico(s) o dirección(es) de la(s) ubicación(es) donde tuvo lugar el evento."
+            },
+            {
+                "@language": "fr",
+                "@value": "(D.4.3) Tout/tous nom(s) ou adresse(s) du ou des lieu(x) où l'événement s'est déroulé. "
+            }
+        ]
+    }
+]

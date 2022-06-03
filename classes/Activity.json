@@ -1,0 +1,108 @@
+[
+  {
+    "@id": "https://fiafcore.org/ontology/Activity",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "FIAF Moving Image Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"
+      },
+      {
+        "@language": "es",
+        "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.1.1, 2.4.1.1, 3.3.1.1"
+      },
+      {
+        "@language": "fr",
+        "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.1.1, 2.4.1.1, 3.3.1.1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Activity"
+      },
+      {
+        "@language": "es",
+        "@value": "Actividad"
+      },
+      {
+        "@language": "fr",
+        "@value": "Activité"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "(1.4.1.1) This describes the activity or role of the Agent in relation to the moving image Work/Variant (e.g. credit terms). (2.4.1.1) Describes the activity of the Agent(s) to make explicit the relationship(s) between the Agent(s) and the Manifestation. (3.3.1.1) Describes the activity of the Agent to make explicit the relationship(s) between the Agent and the Item."
+      },
+      {
+        "@language": "es",
+        "@value": "(1.4.1.1) Este describe la actividad o papel de un agente en relación con la Obra/Variante de imágenes en movimiento (por ejemplo, en los créditos). (2.4.1.1) Describa la actividad del Agente(s) para hacer explícitas las relaciones entre los Agente(s) y la Manifestación. (3.3.1.1) Describe la actividad del Agente al hacer explícita las relaciones entre el Agente y el Ítem."
+      },
+      {
+        "@language": "fr",
+        "@value": "(1.4.1.1) Ce chapitre décrit l'activité ou le rôle de l'Agent en relation avec l'Œuvre/la Variante (p. ex. termes utilisés au générique). (2.4.1.1) Ce champ décrit l'activité de l'Agent afin de rendre explicite la ou les relation(s) entre l'Agent ou les Agents avec la Manifestation. (3.3.1.1) Décrit l'activité de l'Agent afin de rendre explicite la ou les relation(s) entre l'Agent ou les Agents avec l'Item."
+      }
+    ]
+  },
+  {
+    "@id": "https://fiafcore.org/ontology/hasAgent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "FIAF Moving Image Cataloguing Manual 1.4.1, 2.4.1, 3.3.1"
+      },
+      {
+        "@language": "es",
+        "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.1, 2.4.1, 3.3.1"
+      },
+      {
+        "@language": "fr",
+        "@value": "Le Manuel de catalogage des images animées de la FIAF 1.4.1, 2.4.1, 3.3.1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "https://fiafcore.org/ontology/Activity"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Has Agent"
+      },
+      {
+        "@language": "es",
+        "@value": "Tiene Agente"
+      },
+      {
+        "@language": "fr",
+        "@value": "A Un Agent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "https://fiafcore.org/ontology/Agent"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "(1.4.1) An Agent is defined as an entity that is involved in the creation, realisation, curation or exploitation of a Work/Variant and who is considered to have major responsibility for, or be of major importance to, the Work/Variant. (2.4.1) An Agent for moving image Manifestations is defined as an entity that is involved in the exploitation (release, distribution, broadcasting), publishing, manufacturing or preservation of a Manifestation and who is considered to have major responsibility for, or be of major importance to, the Manifestation. (3.3.1) An Agent for moving image Items is defined as an entity that is involved in the acquisition, movement (for loans, inspection, storage, etc.), or preservation of a moving image Item and who is considered to have major responsibility for, or be of major importance to, the moving image Item."
+      },
+      {
+        "@language": "es",
+        "@value": "(1.4.1) Se define a un Agente como una entidad involucrada en la creación, realización, curaduría, o explotación de una Obra/Variante; a quien se considera que tiene una responsabilidad mayor, o que es de importancia mayor para la Obra/Variante. (2.4.1) Un Agente de Manifestaciones de imágenes en movimiento se define como una entidad que está involucrada en la explotación (estreno, distribución, transmisión), publicación, fabricación o preservación de una Manifestación; a quien se considera responsable o de mayor importancia para la Manifestación. (3.3.1) Un Agente de Ítems de imágenes en movimiento se define como una entidad que está involucrada en la adquisición, los movimientos (para préstamo, inspección, almacenamiento, etc.) o la preservación de un Ítem de imágenes en movimiento; quien se considera que tiene una responsabilidad mayor o de la más extensa importancia, para el Ítem de imágenes en movimiento."
+      },
+      {
+        "@language": "fr",
+        "@value": "(1.4.1) Un Agent est défini comme une entité impliquée dans la création, la réalisation, le traitement ou l'exploitation d'une Œuvre/Variante. Il est considéré comme ayant une responsabilité majeure ou étant d'une importance majeure pour l'Œuvre/la Variante. (2.4.1) Un Agent lié à une Manifestation est défini comme une entité impliquée dans l'exploitation (sortie, distribution, diffusion), l'édition, la fabrication ou la préservation d'une Manifestation. Il est considéré comme ayant une responsabilité majeure, ou étant d'une importance majeure, pour la Manifestation. (3.3.1) Un Agent lié à un Item est défini comme une entité impliquée dans l'acquisition, les mouvements (pour les prêts, les analyses, le stockage, etc.) ou la conservation d'un Item. Il est considéré comme ayant une responsabilité majeure, ou étant d'une importance majeure pour l'Item."
+      }
+    ]
+  }
+]

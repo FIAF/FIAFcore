@@ -1,0 +1,108 @@
+[
+    {
+        "@id": "https://fiafcore.org/ontology/Condition",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#Class"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.6.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.6.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.6.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Condition"
+            },
+            {
+                "@language": "es",
+                "@value": "Condición"
+            },
+            {
+                "@language": "fr",
+                "@value": "État"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.6.1) Record the condition of the Item including its base and/or emulsion and/or perforations, where applicable."
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.6.1) Registre la condición del Ítem incluída su base y/o emulsión y/o perforaciones, donde sea aplicable."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.6.1) Enregistrez l'état de l'Item, y compris la nature du support et/ou son émulsion et/ou ses perforations, le cas échéant."
+            }
+        ]
+    },
+    {
+        "@id": "https://fiafcore.org/ontology/hasConditionValue",
+        "@type": [
+            "http://www.w3.org/2002/07/owl#DatatypeProperty"
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "en",
+                "@value": "FIAF Moving Image Cataloguing Manual 3.1.6.1"
+            },
+            {
+                "@language": "es",
+                "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.6.1"
+            },
+            {
+                "@language": "fr",
+                "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.6.1"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#domain": [
+            {
+                "@id": "https://fiafcore.org/ontology/Condition"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "en",
+                "@value": "Has Condition Value"
+            },
+            {
+                "@language": "es",
+                "@value": "Tiene Valor de Condición"
+            },
+            {
+                "@language": "fr",
+                "@value": "A Une Valeur d'État"
+            }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#range": [
+            {
+                "@id": "http://www.w3.org/2001/XMLSchema#string"
+            }
+        ],
+        "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(3.1.6.1) Incorporate data ranging from graded scales designations (either numerical or alphabetical, for example 1-5, A-G, Perfect – Very Poor)"
+            },
+            {
+                "@language": "es",
+                "@value": "(3.1.6.1) Incorporar los datos que van desde designaciones de escalas graduales (ya sea numéricas o alfabéticas, por ejemplo, 1-5, A-G, Perfecta – Muy Pobre)."
+            },
+            {
+                "@language": "fr",
+                "@value": "(3.1.6.1) Incorporer des données d'échelles graduées (numériques ou alphabétiques, par exemple de 1 à 5, A-G, Parfait - Très mauvais)."
+            }
+        ]
+    }
+]
