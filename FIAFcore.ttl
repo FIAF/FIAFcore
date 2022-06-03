@@ -1,0 +1,1049 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:contributor "Paul Duchesne" ;
+    dc:title "FIAFcore" ;
+    owl:versionInfo "0.01" .
+
+<https://fiafcore.org/ontology/hasActivity> a owl:ObjectProperty ;
+    rdfs:label "Has Activity"@en,
+        "Tiene Actividad"@es,
+        "A Une Activité"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.1.1, 2.4.1.1, 3.3.1.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.1.1, 2.4.1.1, 3.3.1.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Event> ;
+    rdfs:range <https://fiafcore.org/ontology/Activity> ;
+    skos:definition "(1.4.1.1) This describes the activity or role of the Agent in relation to the moving image Work/Variant (e.g. credit terms). (2.4.1.1) Describes the activity of the Agent(s) to make explicit the relationship(s) between the Agent(s) and the Manifestation. (3.3.1.1) Describes the activity of the Agent to make explicit the relationship(s) between the Agent and the Item."@en,
+        "(1.4.1.1) Este describe la actividad o papel de un agente en relación con la Obra/Variante de imágenes en movimiento (por ejemplo, en los créditos). (2.4.1.1) Describa la actividad del Agente(s) para hacer explícitas las relaciones entre los Agente(s) y la Manifestación. (3.3.1.1) Describe la actividad del Agente al hacer explícita las relaciones entre el Agente y el Ítem."@es,
+        "(1.4.1.1) Ce chapitre décrit l'activité ou le rôle de l'Agent en relation avec l'Œuvre/la Variante (p. ex. termes utilisés au générique). (2.4.1.1) Ce champ décrit l'activité de l'Agent afin de rendre explicite la ou les relation(s) entre l'Agent ou les Agents avec la Manifestation. (3.3.1.1) Décrit l'activité de l'Agent afin de rendre explicite la ou les relation(s) entre l'Agent ou les Agents avec l'Item."@fr .
+
+<https://fiafcore.org/ontology/hasAgent> a owl:ObjectProperty ;
+    rdfs:label "Has Agent"@en,
+        "Tiene Agente"@es,
+        "A Un Agent"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.1, 2.4.1, 3.3.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.1, 2.4.1, 3.3.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.1, 2.4.1, 3.3.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Activity> ;
+    rdfs:range <https://fiafcore.org/ontology/Agent> ;
+    skos:definition "(1.4.1) An Agent is defined as an entity that is involved in the creation, realisation, curation or exploitation of a Work/Variant and who is considered to have major responsibility for, or be of major importance to, the Work/Variant. (2.4.1) An Agent for moving image Manifestations is defined as an entity that is involved in the exploitation (release, distribution, broadcasting), publishing, manufacturing or preservation of a Manifestation and who is considered to have major responsibility for, or be of major importance to, the Manifestation. (3.3.1) An Agent for moving image Items is defined as an entity that is involved in the acquisition, movement (for loans, inspection, storage, etc.), or preservation of a moving image Item and who is considered to have major responsibility for, or be of major importance to, the moving image Item."@en,
+        "(1.4.1) Se define a un Agente como una entidad involucrada en la creación, realización, curaduría, o explotación de una Obra/Variante; a quien se considera que tiene una responsabilidad mayor, o que es de importancia mayor para la Obra/Variante. (2.4.1) Un Agente de Manifestaciones de imágenes en movimiento se define como una entidad que está involucrada en la explotación (estreno, distribución, transmisión), publicación, fabricación o preservación de una Manifestación; a quien se considera responsable o de mayor importancia para la Manifestación. (3.3.1) Un Agente de Ítems de imágenes en movimiento se define como una entidad que está involucrada en la adquisición, los movimientos (para préstamo, inspección, almacenamiento, etc.) o la preservación de un Ítem de imágenes en movimiento; quien se considera que tiene una responsabilidad mayor o de la más extensa importancia, para el Ítem de imágenes en movimiento."@es,
+        "(1.4.1) Un Agent est défini comme une entité impliquée dans la création, la réalisation, le traitement ou l'exploitation d'une Œuvre/Variante. Il est considéré comme ayant une responsabilité majeure ou étant d'une importance majeure pour l'Œuvre/la Variante. (2.4.1) Un Agent lié à une Manifestation est défini comme une entité impliquée dans l'exploitation (sortie, distribution, diffusion), l'édition, la fabrication ou la préservation d'une Manifestation. Il est considéré comme ayant une responsabilité majeure, ou étant d'une importance majeure, pour la Manifestation. (3.3.1) Un Agent lié à un Item est défini comme une entité impliquée dans l'acquisition, les mouvements (pour les prêts, les analyses, le stockage, etc.) ou la conservation d'un Item. Il est considéré comme ayant une responsabilité majeure, ou étant d'une importance majeure pour l'Item."@fr .
+
+<https://fiafcore.org/ontology/hasAudioCodec> a owl:ObjectProperty ;
+    rdfs:label "Has Audio Codec"@en,
+        "Tiene Codificación de Audio"@es,
+        "A Un Codec Audio"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.17"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.17"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.17"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Stream> ;
+    rdfs:range <https://fiafcore.org/ontology/AudioCodec> ;
+    skos:definition "(3.1.5.17) The audio compression standard used in the audio file, whether it is contained in a wrapper with a video file or as a standalone audio file."@en,
+        "(3.1.5.17) Se refiere a la norma de compresión de audio aplicada en el archivo de audio, ya sea que esté contenida en conjunto con el video o como un archivo de audio independiente."@es,
+        "(3.1.5.17) Il s'agit du standard de compression audio utilisé dans un fichier son, qu'il soit dans un format conteneur avec un fichier vidéo ou qu'il existe en tant que fichier audio distinct."@fr .
+
+<https://fiafcore.org/ontology/hasBase> a owl:ObjectProperty ;
+    rdfs:label "Has Base"@en,
+        "Tiene Base"@es,
+        "A Une Base"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.13"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.13"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.13"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/Base> ;
+    skos:definition "(3.1.5.13) The physical material or video format on which the Item is captured, for example, describing the flexible transparent material that supports a film items’ emulsion or a magnetic track, (e.g., acetate, nitrate, CTA, etc.)."@en,
+        "(3.1.5.13) El material físico o el formato de video sobre el que se ha capturado el Ítem, por ejemplo, la descripción del material flexible transparente que soporta la emulsión de la película de un Ítem o una pista magnética (por ejemplo, acetato, nitrato, CTA, etc.)"@es,
+        "(3.1.5.13) Le matériel physique ou le format vidéo sur lequel l’Item est fixé, décrivant par exemple le support souple et transparent sur lequel est fixée l’émulsion d’un film ou d’une bande magnétique (p. ex. acétate, nitrate, triacétate, etc.)."@fr .
+
+<https://fiafcore.org/ontology/hasBitDepth> a owl:DatatypeProperty ;
+    rdfs:label "Has Bit Depth"@en,
+        "Tienne Cantidad de Bits"@es,
+        "A Une Profondeur de Bit"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.20"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.20"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.20"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Stream> ;
+    rdfs:range xsd:float ;
+    skos:definition "(3.1.5.20) Note that bit depth can be used in describing both video and audio files."@en,
+        "(3.1.5.20) Nótese que la Cantidad de Bits puede utilizarse para describir tanto archivos de video como archivos de audio."@es,
+        "(3.1.5.20) Il est à noter que la profondeur de bit peut s'appliquer tant à l'image qu'au son."@fr .
+
+<https://fiafcore.org/ontology/hasBroadcastStandard> a owl:ObjectProperty ;
+    rdfs:label "Has Broadcast Standard"@en,
+        "Tiene Norma de Transmisión de Video"@es,
+        "A Un Standard de Télédiffusion"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.10"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.10"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.10"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/BroadcastStandard> ;
+    skos:definition "(3.1.5.10) The broadcast standard for a video or DVD/BluRay: NTSC, PAL, SECAM."@en,
+        "(3.1.5.10) La norma de transmisión de video o DVD / BluRay puede ser: NTSC, PAL, SECAM."@es,
+        "(3.1.5.10) Il s'agit des standards de codage pour les vidéos ou DVD/Blu-ray : NTSC, PAL, SECAM."@fr .
+
+<https://fiafcore.org/ontology/hasCarrier> a owl:ObjectProperty ;
+    rdfs:label "Has Carrier"@en,
+        "Tiene Portador"@es,
+        "A Un Type de Support"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.1, 3.1.5.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.1, 3.1.5.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.1, 3.1.5.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item>,
+        <https://fiafcore.org/ontology/Manifestation> ;
+    rdfs:range <https://fiafcore.org/ontology/Carrier> ;
+    skos:definition "(2.3.4.1) Carrier type is the medium on or the encoding format in which the Manifestation is fixed. (3.1.5.1) Carrier type is the medium on or the encoding format in which the Item is fixed."@en,
+        "(2.3.4.1) El tipo de portador es el medio en el que se almacena o se codifica una Manifestación. (3.1.5.1) Se refiere al formato de codificación o el medio en el que se ha fijado el Ítem."@es,
+        "(2.3.4.1) Le type de support désigne le support ou le format d'encodage sur lequel la Manifestation est fixée. (3.1.5.1) Le type de support est le support ou le format d'encodage sur lequel l'Item est fixé."@fr .
+
+<https://fiafcore.org/ontology/hasColourCharacteristic> a owl:ObjectProperty ;
+    rdfs:label "Has Colour Characteristic"@en,
+        "Tiene Características de Color"@es,
+        "A Une Caractéristique de Couleur"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.4, 3.1.5.6"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.4, 3.1.5.6"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.4, 3.1.5.6"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item>,
+        <https://fiafcore.org/ontology/Manifestation> ;
+    rdfs:range <https://fiafcore.org/ontology/ColourCharacteristic> ;
+    skos:definition "(2.3.4.4) The presence of colour(s), tone(s), etc. in a Manifestation. (3.1.5.6) The presence of colour(s), tone(s), etc. in an Item."@en,
+        "(2.3.4.4) Se refiere a la presencia de color(es), tono(s), etc., en una Manifestación. (3.1.5.6) La presencia de color(es), tono(s), etc., en un Ítem."@es,
+        "(2.3.4.4) Indique la présence de couleur(s), teinte(s), etc. dans une Manifestation. (3.1.5.6) Il s'agit de signaler la présence de couleur(s), teinte(s), etc. dans un Item."@fr .
+
+<https://fiafcore.org/ontology/hasColourStandard> a owl:ObjectProperty ;
+    rdfs:label "Has Colour Standard"@en,
+        "Tiene Estándar de Color"@es,
+        "A Un Procédé Couleur"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.4"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.4"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.4"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/ColourCharacteristic> ;
+    rdfs:range <https://fiafcore.org/ontology/ColourStandard> ;
+    skos:definition "(2.3.4.4) Optionally, if considered relevant, describe the system or process by which colour is fixed on the carrier or as part of the digital encoding, for example, Pathécolor, Technicolor, RGB, etc."@en,
+        "(2.3.4.4) Optativamente, si se considera relevante, describa el sistema o proceso mediante el cual se fijó el color en el portador o como parte de la codificación digital, por ejemplo, Pathécolor, Technicolor, RGB, etc."@es,
+        "(2.3.4.4) Le cas échéant, décrivez le procédé de fixation de la couleur sur le support ou son encodage numérique, par exemple, Pathécolor, Technicolor, RVB, etc."@fr .
+
+<https://fiafcore.org/ontology/hasCondition> a owl:ObjectProperty ;
+    rdfs:label "Has Condition"@en,
+        "Tiene Condición"@es,
+        "A Un État"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.6.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.6.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.6.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Event> ;
+    rdfs:range <https://fiafcore.org/ontology/Condition> ;
+    skos:definition "(3.1.6.1) Record the condition of the Item including its base and/or emulsion and/or perforations, where applicable."@en,
+        "(3.1.6.1) Registre la condición del Ítem incluída su base y/o emulsión y/o perforaciones, donde sea aplicable."@es,
+        "(3.1.6.1) Enregistrez l'état de l'Item, y compris la nature du support et/ou son émulsion et/ou ses perforations, le cas échéant."@fr .
+
+<https://fiafcore.org/ontology/hasConditionValue> a owl:DatatypeProperty ;
+    rdfs:label "Has Condition Value"@en,
+        "Tiene Valor de Condición"@es,
+        "A Une Valeur d'État"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.6.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.6.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.6.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Condition> ;
+    rdfs:range xsd:string ;
+    skos:definition "(3.1.6.1) Incorporate data ranging from graded scales designations (either numerical or alphabetical, for example 1-5, A-G, Perfect – Very Poor)"@en,
+        "(3.1.6.1) Incorporar los datos que van desde designaciones de escalas graduales (ya sea numéricas o alfabéticas, por ejemplo, 1-5, A-G, Perfecta – Muy Pobre)."@es,
+        "(3.1.6.1) Incorporer des données d'échelles graduées (numériques ou alphabétiques, par exemple de 1 à 5, A-G, Parfait - Très mauvais)."@fr .
+
+<https://fiafcore.org/ontology/hasCountry> a owl:ObjectProperty ;
+    rdfs:label "Has Country"@en,
+        "Tiene País"@es,
+        "A Un Pays"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.3"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Variant>,
+        <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/Country> ;
+    skos:definition "(1.3.3) Where known and applicable, record the geographic origin of the moving image Work/Variant."@en,
+        "(1.3.3) Cuando se conozca y aplique el caso, registre el origen geográfico de la Obra o Variante de imágenes en movimiento."@es,
+        "(1.3.3) Si elle est connue, enregistrez l'origine géographique de l'Œuvre/de la Variante."@fr .
+
+<https://fiafcore.org/ontology/hasDate> a owl:DatatypeProperty ;
+    rdfs:label "Has Date"@en,
+        "Tiene Fecha"@es,
+        "A Une Date"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual D.4.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento D.4.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF D.4.3"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Event> ;
+    rdfs:range xsd:dateTime ;
+    skos:definition "(D.4.3) The year/date or time-span during which the event took place."@en,
+        "(D.4.3) El año/fecha o espacio de tiempo donde tuvo lugar el evento."@es,
+        "(D.4.3) La date ou période au cours de laquelle l'événement s'est déroulé."@fr .
+
+<https://fiafcore.org/ontology/hasElement> a owl:ObjectProperty ;
+    rdfs:label "Has Element"@en,
+        "Tiene Elemento"@es,
+        "A Un Type"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.4"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.4"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.4"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/Element> ;
+    skos:definition "(3.1.4) Record the nature or function of the moving image Item, describing its place in thephotochemical or digital production or duplication process, for example, “original negative,” “duplicate negative,” etc."@en,
+        "(3.1.4) Registre la naturaleza o función del Ítem de imágenes en movimiento, describiendo su lugar en la producción fotoquímica o digital o en el proceso de duplicación, por ejemplo, “negativo original”, “negativo duplicado”, etc."@es,
+        "(3.1.4) Enregistrez la nature ou la fonction de l'Item, en décrivant sa place dans les procédés de production ou de duplication photochimique ou numérique, par exemple, « négatif original », « contretype négatif », etc."@fr .
+
+<https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
+    rdfs:label "Has Event"@en,
+        "Tiene Evento"@es,
+        "A Un Événement"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.2, 2.4.2, 3.3.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.2, 2.4.2, 3.3.2"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item>,
+        <https://fiafcore.org/ontology/Manifestation>,
+        <https://fiafcore.org/ontology/Variant>,
+        <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/Event> ;
+    skos:definition "(1.4.2) An Event characterises occurrences in the lifecycle of a moving image Work or its Variants. (2.4.2) An Event characterises occurrences in the life cycle of a moving image Manifestation. Instances of any Event type can have Agent and Other relationships. (3.3.2) An Event characterises occurrences in the life cycle of a moving image Item."@en,
+        "(1.4.2) Un Evento caracteriza ocurrencias en el ciclo de vida de una Obra de imágenes en movimiento o sus Variantes. (2.4.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de una Manifestación de imágenes en movimiento. Así, cualquier tipo de Evento pueden tener relaciones con Agente(s) y con “Otra(s) relación(es)”. (3.3.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de un Ítem de imágenes en movimiento."@es,
+        "(1.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Œuvre ou de ses Variantes. (2.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Manifestation. Des instances de tout type d'Événement peuvent avoir des relations d'Agent et d'« Autres ». (3.3.2) Un Événement caractérise des occurrences dans le cycle de vie d’un Item."@fr .
+
+<https://fiafcore.org/ontology/hasExtent> a owl:ObjectProperty ;
+    rdfs:label "Has Extent"@en,
+        "Tiene Extensión"@es,
+        "A Une Étendue"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.5, 3.1.5.8"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.5, 3.1.5.8"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item>,
+        <https://fiafcore.org/ontology/Manifestation> ;
+    rdfs:range <https://fiafcore.org/ontology/Extent> ;
+    skos:definition "(2.3.5) The concept of extent as applied to Manifestations is the “ideal” logical, physical, or temporal(duration) units and not a description of a real physical object. (3.1.5.8)The actual physical / digital extent is a characteristic of a singular Item, since it can be different for multiple Items exemplifying the same moving image Manifestation."@en,
+        "(2.3.5) El concepto de extensión tal como se aplica en las Manifestaciones se refiere a las unidades lógicas, físicas o temporales (duración) “ideales”; y no a la descripción de un objeto físico real. (3.1.5.8) La extension física y/o digital es una característica de un Ítem específico, ya que puede diferir de múltiples Ítems ejemplificando a la misma Manifestación de imágenes en movimiento."@es,
+        "(2.3.5) Le concept d'étendue appliqué à la Manifestation désigne des unités logiques, matérielles ou temporelles (durée) « idéales » et non celles d'un objet physique réel. (3.1.5.8) L'étendue matérielle/numérique réelle caractérise un Item en particulier et peut être différente pour chaque Item distinct représentant un exemplaire d'une même Manifestation."@fr .
+
+<https://fiafcore.org/ontology/hasExtentValue> a owl:DatatypeProperty ;
+    rdfs:label "Has Extent Value"@en,
+        "Tiene Valor de Extensión"@es,
+        "A Une Valeur d'Étendue"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.5, 3.1.5.8"@es,
+        "Le Manuel de catalogage des images animées de la FIAF  2.3.5, 3.1.5.8"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Extent> ;
+    rdfs:range xsd:float ;
+    skos:definition "(3.1.5.8) Having separate numeric fields can facilitate calculations in determining the amount of footage that will be preserved. For digital files, enter the numerical measurement indicating the size of the digital asset’s file(s), in KB, MB, GB, or TB."@en,
+        "(3.1.5.8) Tener campos numéricos separados puede facilitar los cálculos para determinar la cantidad de metraje que será preservada. Para archivos digitales, registre la medida numérica que indique el tamaño de los mismos en KB, MB, GB o TB."@es,
+        "(3.1.5.8) Le fait d'avoir des champs numériques séparés peut faciliter les calculs quand il faut déterminer la quantité de métrage à préserver. Pour les fichiers numériques, enregistrez le poids du fichier numérique en Ko, Mo, Go ou To."@fr .
+
+<https://fiafcore.org/ontology/hasForm> a owl:ObjectProperty ;
+    rdfs:label "Has Form"@en,
+        "Tiene Forma"@es,
+        "A Une Forme"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.3"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Variant>,
+        <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/Form> ;
+    skos:definition "(1.4.3) Form describes the format and/or purpose of a Work, e.g., “non-fiction”, “short” and “animation” are particular forms or identifiers."@en,
+        "(1.4.3) Un término de Forma describe el formato y/o propósito de una Obra (por ejemplo, “no-ficción”, “cortos” y “animación” son formas particulares o identificadores"@es,
+        "(1.4.3) La forme décrit le format et/ou la caractérisation d'une Œuvre, p. ex. « non-fiction », « court métrage » et « animation » sont des formes ou des identifiants"@fr .
+
+<https://fiafcore.org/ontology/hasFrameRate> a owl:DatatypeProperty ;
+    rdfs:label "Has Frame Rate"@en,
+        "Tiene Velocidad de Cuadros"@es,
+        "A Une Cadence"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.12"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.12"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.12"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range xsd:float ;
+    skos:definition "(3.1.5.12) Frame rate is the native frame rate for the Item."@en,
+        "(3.1.5.12) La velocidad de cuadros es la velocidad originaria del Ítem."@es,
+        "(3.1.5.12) Il s'agit de la cadence d'origine de l'item."@fr .
+
+<https://fiafcore.org/ontology/hasGenre> a owl:ObjectProperty ;
+    rdfs:label "Has Genre"@en,
+        "Tiene Género"@es,
+        "A Un Genre"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.3"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Variant>,
+        <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/Genre> ;
+    skos:definition "(1.4.3) Genre describes categories of Works, characterized by similar plots, themes, settings, situations, and characters. Examples of genres are “westerns” and “thrillers”."@en,
+        "(1.4.3) Los términos de Género describen categorías de Obras, caracterizadas por tramas, temas, ambientación o situaciones y personajes similares. Son ejemplos de géneros los “westerns” y “thrillers”."@es,
+        "(1.4.3) Le genre décrit des catégories d'Œuvres, caractérisées par des intrigues, des thèmes, des décors, des situations et des personnages similaires. Des exemples de genres sont les « westerns » et les « thrillers »."@fr .
+
+<https://fiafcore.org/ontology/hasHoldingInstitution> a owl:ObjectProperty ;
+    rdfs:label "Has Holding Institution"@en,
+        "Tiene Institución Propietaria"@es,
+        "A Un Établissement Détenteur"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.3"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/HoldingInstitution> ;
+    skos:definition "(3.1.3) Record the name of the institution possessing the moving image Item or authorised to make it available."@en,
+        "(3.1.3) Registre el nombre de la institución que posee el Ítem de imágenes en movimiento o que está autorizada para hacerlo disponible."@es,
+        "(3.1.3) Enregistrez le nom de l'institution qui détient l'Item ou qui est autorisé à le mettre à disposition."@fr .
+
+<https://fiafcore.org/ontology/hasIdentifier> a owl:ObjectProperty ;
+    rdfs:label "Has Identifier"@en,
+        "Tiene Identificador"@es,
+        "A Un Identifiant"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.1.1, 2.3.1.1, 3.1.1.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.1.1, 2.3.1.1, 3.1.1.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.1.1, 2.3.1.1, 3.1.1.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item>,
+        <https://fiafcore.org/ontology/Manifestation>,
+        <https://fiafcore.org/ontology/Variant>,
+        <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/Identifier> ;
+    skos:definition "(1.3.1.1) If an institution's system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. (2.3.1.1) If an institution’s system allows, as with the Work/Variant Identifiers a “Type” can be applied with an Identifier to define the source of the Identifier. (3.1.1.1) If an institution’s system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. Examples: Barcode, Shelf mark, Accession number."@en,
+        "(1.3.1.1) Si una institución lo permite, un “Tipo” puede aplicarse con un identificador para definir la fuente del identificador. (2.3.1.1) Si el Sistema institucional lo permite, así como con los identificadores de Obra/Variante, se puede aplicar un atributo para definir la fuente del Identificador. (3.1.1.1) Si el sistema institucional lo permite, puede agregar un elemento que defina la fuente del Identificador, por ejemplo: código de barras, código de estantería, número de acceso."@es,
+        "(1.3.1.1) Si le système de gestion de l'institution le permet, un « type » peut être associé à l'identifiant afin d'en définir la source. (2.3.1.1) Si le système de l'institution le permet, comme dans le cas des identifiants d'Œuvres/Variantes, un « type » peut être appliqué à un identifiant pour en indiquer la source. (3.1.1.1) Si le système de l'institution le permet, un « type » peut être appliqué à un identifiant pour en définir la source. Exemples : code-barres, numéro d'étagère, numéro d'entrée."@fr .
+
+<https://fiafcore.org/ontology/hasIdentifierText> a owl:DatatypeProperty ;
+    rdfs:label "Has Identifier Text"@en,
+        "Tiene Texto de Identificador"@es,
+        "A Un Texte d'Identification"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.1, 2.3.1, 3.1.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.1, 2.3.1, 3.1.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Identifier> ;
+    rdfs:range xsd:string ;
+    skos:definition "(1.3.1) Create an unambiguous reference to the Work/Variant using a unique identifier and indicate the type of identifier. (2.3.1) Create an unambiguous reference to the Manifestation, such as a specific standard number issued by an official body (i.e. V-ISAN87 or DOI88), or a system-automated assigned ID number. (3.1.1) Create an unambiguous numerical or alphanumerical reference to the moving image Item, such as a call number, barcode, shelf mark or similar, to uniquely identify the copy."@en,
+        "(1.3.1) Se crea una referencia sin ambigüedad hacia una Obra/Variante mediante la utilización de un identificador único y se indica el tipo de identificador. (2.3.1) Elabore una referencia sin ambiguedad hacia la Manifestación, tal como el número de una norma específica emitido por una entidad oficial (i.e. V-ISAN o DOI), o el número ID generado por un sistema automatizado. (3.1.1) Elabore un identificador numérico o una referencia sin ambigüedad para el Ítem de imágenes en movimiento, tales como una signatura topográfica, código de barras, marca de estantería o similar, para identificar a la copia de manera unívoca."@es,
+        "(1.3.1) Créez pour l'Œuvre/la Variante un identifiant unique et indiquez le type d'identifiant. (2.3.1) Créez une référence unique pour la Manifestation, telle qu'un numéro standard délivré par un organisme officiel (par exemple V-ISAN87 ou DOI88), ou un ID automatiquement généré. (3.1.1) Créez une référence numérique ou alphanumérique unique pour l'Item, telle qu'une cote, un codebarres, une marque sur une étagère ou autre, requis pour identifier de manière unique la copie."@fr .
+
+<https://fiafcore.org/ontology/hasItem> a owl:ObjectProperty ;
+    rdfs:label "Has Item"@en,
+        "Tiene Ítem"@es,
+        "A Un Item"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.4.4"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.4.4"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.4.4"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Manifestation> ;
+    rdfs:range <https://fiafcore.org/ontology/Item> ;
+    skos:definition "(2.4.4) Express the relationship between a moving image Manifestation and a moving image Item (e.g. Part/part of)."@en,
+        "(2.4.4) Exprese la relación entre una Manifestación de imágenes en movimiento y un Ítem de imágenes en movimiento (por ejemplo, “parte/parte de”)."@es,
+        "(2.4.4) Exprimez la relation entre une Manifestation et un Item (p. ex., contient/est contenu dans)."@fr .
+
+<https://fiafcore.org/ontology/hasLanguage> a owl:ObjectProperty ;
+    rdfs:label "Has Language"@en,
+        "Tiene Idioma"@es,
+        "A Une Langue"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.5.1, 2.3.3.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.5.1, 2.3.3.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.5.1, 2.3.3.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/LanguageUsage> ;
+    rdfs:range <https://fiafcore.org/ontology/Language> ;
+    skos:definition "(1.3.5.1) Record the language(s) by taking the most suitable value(s) from a controlled list of languages. (2.3.3.1) Where possible, record the language(s) using the full form of name, e.g., French, Italian, etc. rather than abbreviations or codes, by taking the most suitable value(s) from a controlled list."@en,
+        "(1.3.5.1) Registre el(los) idioma(s) tomando el(los) valor(es) más apropiados de una lista controlada de idiomas. (2.3.3.1) Cuando sea posible, registre el(los) idioma(s) utilizando la forma completa del nombre, por ejemplo, francés, italiano, etc. en lugar de abreviaturas o códigos."@es,
+        "(1.3.5.1) Enregistrez le(s) langue(s) en choisissant la valeur la plus juste dans une liste contrôlée. (2.3.3.1) Dans la mesure du possible, enregistrez la ou les langue(s) en utilisant la forme complète, p. ex. français, italien, etc. plutôt que des abréviations ou des codes, en choisissant la ou les valeur(s) les plus appropriées dans une liste contrôlée."@fr .
+
+<https://fiafcore.org/ontology/hasLanguageUsage> a owl:ObjectProperty ;
+    rdfs:label "Has Language Usage"@en,
+        "Tiene Uso del Idioma"@es,
+        "A Une Utilisation de Langue"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.5.2, 2.3.3.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.5.2, 2.3.3.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.5.2, 2.3.3.2"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Manifestation>,
+        <https://fiafcore.org/ontology/Variant>,
+        <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/LanguageUsage> ;
+    skos:definition "(1.3.5.2) Record the usage type of a language (e.g. spoken, intertitles, subtitles, etc.) by taking the most suitable term from a controlled list elaborated in-house or referring to an existing authoritative list. (2.3.3.2) More than one language can occur in different forms, depending on how the content is expressed: the usage type of the languages defines the form with which the language is expressed, for example, spoken, sung, written, etc."@en,
+        "(1.3.5.2) Registre el Tipo de uso de un idioma (por ejemplo: hablada, intertítulos, subtítulos, etc.); tomando el término más adecuado de una lista controlada elaborada en la institución o con referencia a una lista autorizada. (2.3.3.2) Un idioma puede presentarse en más de una forma, dependiendo del contexto: el Tipo de uso del idioma define su expresión, por ejemplo: hablado, cantado, escrito, etc."@es,
+        "(1.3.5.2) Enregistrez le type d'utilisation d'une langue (p. ex. parlée, intertitres, sous-titres, etc.) en choisissant le terme le plus approprié à partir d'une liste contrôlée interne ou en vous référant à une liste d'autorité existante. (2.3.3.2) Il est possible que plusieurs langues apparaissent dans la Manifestation, selon la façon dont le contenu se présente. Le type d'utilisation des langues définit la forme sous laquelle la langue est exprimée, par exemple, parlée, chantée, écrite, etc."@fr .
+
+<https://fiafcore.org/ontology/hasLineStandard> a owl:DatatypeProperty ;
+    rdfs:label "Has Line Standard"@en,
+        "Tiene Norma de Líneas"@es,
+        "A Des Lignes de Balayage"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.19"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.19"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.19"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range xsd:integer ;
+    skos:definition "(3.1.5.19) Describes the number of scan lines which make up the image and indicates the resolution, for example, 405, 525, 1080."@en,
+        "(3.1.5.19) Describe el número de líneas escaneadas que estructuran la imágen e indica la resolución, por ejemplo, 405, 525, 1080."@es,
+        "(3.1.5.19) Cette notion décrit le nombre de lignes de balayage qui constituent l’image et indique la résolution, p. ex. 405, 525, 1080."@fr .
+
+<https://fiafcore.org/ontology/hasLocation> a owl:ObjectProperty ;
+    rdfs:label "Has Location"@en,
+        "Tiene Localidad"@es,
+        "A Un Lieu"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual D.4.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento D.4.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF D.4.3"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Event> ;
+    rdfs:range <https://fiafcore.org/ontology/Location> ;
+    skos:definition "(D.4.3) Any geographic name(s) or address(es) of the location(s) where the event took place"@en,
+        "(D.4.3) Cualquier nombre(s) geográfico(s) o dirección(es) de la(s) ubicación(es) donde tuvo lugar el evento."@es,
+        "(D.4.3) Tout/tous nom(s) ou adresse(s) du ou des lieu(x) où l'événement s'est déroulé. "@fr .
+
+<https://fiafcore.org/ontology/hasManifestation> a owl:ObjectProperty ;
+    rdfs:label "Has Manifestation"@en,
+        "Tiene Manifestación"@es,
+        "A Une Manifestation"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.6"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.6"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.6"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Variant>,
+        <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/Manifestation> ;
+    skos:definition "(1.4.6) Express the relationship between a moving image Work or Variant and a moving image Manifestation (e.g., Part/part of). Describe or demonstrate Work-to-Manifestation relationships through linking to the Work identifier, through the usage of relator terms, or according to the confines of your data structure."@en,
+        "(1.4.6) Exprese la relación entre una Obra o Variante de imágenes en movimiento y una Manifestación (por ejemplo, “parte/parte de”). Describa o demuestre las relaciones “Obra con Manifestación” mediante la vinculación con el identificador de la Obra, a través del uso de términos de relación o de acuerdo con los confínes de su estructura de datos."@es,
+        "(1.4.6) Exprimez la relation entre une Œuvre ou une Variante et une Manifestation (p. ex., contient/est contenu dans). Décrivez ou rendez visibles les relations entre l'Œuvre et la Manifestation en faisant un lien vers l'identifiant de l'Œuvre, en qualifiant les relations ou selon les possibilités offertes par la structure des données de l'institution."@fr .
+
+<https://fiafcore.org/ontology/hasProjectionCharacteristic> a owl:ObjectProperty ;
+    rdfs:label "Has Projection Characteristic"@en,
+        "Tiene Característica de Proyección"@es,
+        "A Une Caractéristique de Projection"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.2, 3.1.5.9"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.2, 3.1.5.9"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item>,
+        <https://fiafcore.org/ontology/Manifestation> ;
+    rdfs:range <https://fiafcore.org/ontology/ProjectionCharacteristic> ;
+    skos:definition "(2.3.4.2) The projection characteristics of a Manifestation include aspect ratio and aperture or image format. (3.1.5.9) The projection characteristics of a Manifestation/Item include aspect ratio and aperture or image format."@en,
+        "(2.3.4.2) Las características de proyección de una Manifestación incluyen la proporción dimensional y la apertura o formato de imagen. (3.1.5.9) Las características de proyección de una Manifestación/Ítem pueden incluir la proporción dimensional y el formato de imagen o apertura."@es,
+        "(2.3.4.2) Les caractéristiques de projection d'une Manifestation comprennent le ratio et l'ouverture ou format de l'image. (3.1.5.9) Les caractéristiques de projection d'une Manifestation/d'un Item comprennent le ratio et l'ouverture ou format de l'image."@fr .
+
+<https://fiafcore.org/ontology/hasProjectionCharacteristicValue> a owl:DatatypeProperty ;
+    rdfs:label "Has Projection Characteristic Value"@en,
+        "Tiene Valor Característico de Proyección"@es,
+        "A Une Valeur de Caractéristique de Projection"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.2, 3.1.5.9"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.2, 3.1.5.9"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/ProjectionCharacteristic> ;
+    rdfs:range xsd:float ;
+    skos:definition "(2.3.4.2) The aspect ratio (also known as projection ratio) is the projected image area visible on screen, expressed as a value of width to height (the value of height always being “1”)."@en,
+        "(2.3.4.2) La proporción dimensional (también conocida como relación de aspecto) es el área visible de una imagen proyectada sobre una pantalla, y se expresa como el valor del ancho por el alturo (el valor de la altura siempre se expresa con el valor “1”)."@es,
+        "(2.3.4.2) Le ratio est la surface de l'image projetée visible à l'écran, exprimée en rapport entre la largeur et la hauteur de l'image (la valeur de la hauteur étant toujours « 1 »), par exemple, 2.34:1, 2.39:1."@fr .
+
+<https://fiafcore.org/ontology/hasResolution> a owl:ObjectProperty ;
+    rdfs:label "Has Resolution"@en,
+        "Tiene Resolución"@es,
+        "A Une Résolution"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.18"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.18"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.18"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/Resolution> ;
+    skos:definition "(3.1.5.18) Note whether the Item's resolution is Standard Definition, High Definition, etc."@en,
+        "(3.1.5.18) Registre si la resolución del Ítem corresponde a Definición Regular(Standard Definition), Alta Definición(High Definition), etc."@es,
+        "(3.1.5.18) Indiquez si la résolution de l'Item est en définition standard, en haute définition, etc."@fr .
+
+<https://fiafcore.org/ontology/hasSoundCharacteristic> a owl:ObjectProperty ;
+    rdfs:label "Has Sound Characteristic"@en,
+        "Tiene Características de Sonido"@es,
+        "A Une Caractéristique Sonores"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.3, 3.1.5.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3, 3.1.5.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.3, 3.1.5.3"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item>,
+        <https://fiafcore.org/ontology/Manifestation> ;
+    rdfs:range <https://fiafcore.org/ontology/SoundCharacteristic> ;
+    skos:definition "(2.3.4.3) Sound characteristics are technical specifications relating to the placement of sound on a Manifestation. (3.1.5.3) Technical specifications relating to the fixation of sound in a moving image Manifestation/Item."@en,
+        "(2.3.4.3) Las características de sonido son especificaciones técnicas relacionadas con la colocación del sonido en la Manifestación. (3.1.5.3) Las especificaciones técnicas relativas a la fijación del sonido en una Manifestación/Ítem."@es,
+        "(2.3.4.3) Les caractéristiques sonores sont des spécifications techniques relatives à l'emplacement du son sur une Manifestation. (3.1.5.3) Il s'agit des spécifications techniques relatives à la fixation du son sur une Manifestation/un Item."@fr .
+
+<https://fiafcore.org/ontology/hasSoundFixation> a owl:ObjectProperty ;
+    rdfs:label "Has Sound Fixation"@en,
+        "A Une Configuration des Canaux Audio"@es,
+        "Tiene Configuración del Canal de Sonido"@es ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.3.2, 3.1.5.4"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3.2, 3.1.5.4"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.3.2, 3.1.5.4"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/SoundCharacteristic> ;
+    rdfs:range <https://fiafcore.org/ontology/SoundFixation> ;
+    skos:definition "(2.3.4.3.2) If the Manifestation has sound, note here the track configuration (e.g., mono, stereo, etc.). (3.1.5.4) If the Item has sound, note here the track configuration (e.g., mono, stereo, etc.)"@en,
+        "(2.3.4.3.2) Si la Manifestación tiene sonido, registre la configuración de la pista (por ejemplo, mono, estéreo, etc.). (3.1.5.4) Si el Ítem tiene sonido, anote aquí la configuración de la pista (por ejemplo, mono, estereo, etc.)."@es,
+        "(2.3.4.3.2) Si la Manifestation comporte du son, notez ici la configuration des pistes (par exemple, mono, stéréo, etc.). (3.1.5.4) Si l'Item comporte du son, indiquez ici la configuration des pistes (par exemple, mono, stéréo, etc.)."@fr .
+
+<https://fiafcore.org/ontology/hasSoundStandard> a owl:ObjectProperty ;
+    rdfs:label "Has Sound Standard"@en,
+        "Tiene Sistemas de sonido"@es,
+        "A Un Procédé Sonore"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.3.1, 3.1.5.5"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3.1, 3.1.5.5"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.3.1, 3.1.5.5"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/SoundCharacteristic> ;
+    rdfs:range <https://fiafcore.org/ontology/SoundStandard> ;
+    skos:definition "(2.3.4.3.1) Describes the technical or proprietary system used to record the sound on a Manifestation/Item, for example, Dolby SR, Dolby Digital, etc. (3.1.5.5) Describes the technical or proprietary system used to record the sound on a Manifestation/Item, for example, Dolby SR, Dolby Digital, etc."@en,
+        "(2.3.4.3.1) Describa el sistema técnico o el sistema patentado que se ha utilizado para grabar el sonido de la Manifestación, por ejemplo, Dolby SR, Dolby Digital, etc. (3.1.5.5) Describe el sistema técnico utilizado para grabar el sonido en una Manifestación/Ítem, por ejemplo, Dolby SR, Dolby Digital, etc."@es,
+        "(2.3.4.3.1) Décrit le système technique ou propriétaire utilisé pour enregistrer le son sur une Manifestation/un Item, par exemple, Dolby SR, Dolby Digital, DTS, etc. (3.1.5.5) Le procédé sonore décrit le système technique ou propriétaire utilisé pour enregistrer le son sur une Manifestation/un Item, par exemple, Dolby SR, Dolby Digital, Dolby Digital, etc."@fr .
+
+<https://fiafcore.org/ontology/hasSourceDevice> a owl:ObjectProperty ;
+    rdfs:label "Has Source Device"@en,
+        "Tiene Dispositivo para Reproducción"@es,
+        "A Un Périphérique de Lecture"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.21"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.21"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.21"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/SourceDevice> ;
+    skos:definition "(3.1.5.21) Record the source playback device used in transfer projects. This can be a video deck, film printer, or hardware."@en,
+        "(3.1.5.21) Registre el dispositivo fuente de reproducción utilizado en proyectos de transferencia. Este puede corresponder al tablero de video, la impresora de película o el equipo de computadora."@es,
+        "(3.1.5.21) Indiquez les appareils utilisés dans les projets de transfert. Il peut s'agir d'une station vidéo, d'une tireuse cinématographique ou de matériel informatique."@fr .
+
+<https://fiafcore.org/ontology/hasSourceSoftware> a owl:ObjectProperty ;
+    rdfs:label "Has Source Software"@en,
+        "Tiene Software Fuente"@es,
+        "A Un Logiciel"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.22"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.22"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.22"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/SourceSoftware> ;
+    skos:definition "(3.1.5.22) Record the source software used in playing a digital file."@en,
+        "(3.1.5.22) Registre el software que se requiere para reproducir un archivo digital."@es,
+        "(3.1.5.22) Indiquez le logiciel utilisé pour lire un fichier numérique."@fr .
+
+<https://fiafcore.org/ontology/hasStatus> a owl:ObjectProperty ;
+    rdfs:label "Has Status"@en,
+        "Tiene Estado"@es,
+        "A Un Statut"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.2"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/Status> ;
+    skos:definition "(3.1.5.2) Description of the preservation or access status of the Item, for example Master, Viewing, etc."@en,
+        "(3.1.5.2) Descripción del estado de preservación o el estado de acceso del Ítem, por ejemplo: máster, visualización, etc."@es,
+        "(3.1.5.2) Il s'agit de la description du statut de conservation ou d'accès de l'Item, p. ex. Master, copie de visionnage, etc."@fr .
+
+<https://fiafcore.org/ontology/hasStock> a owl:ObjectProperty ;
+    rdfs:label "Has Stock"@en,
+        "Tiene Stock"@es,
+        "A Une Marque du Support"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.14"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.14"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.14"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/Stock> ;
+    skos:definition "(3.1.5.14) Describes the specific stock/brand on which the Item is captured, for example, Eastman Kodak, Fuji, 3M, etc."@en,
+        "(3.1.5.14) Describe el tipo o la marca comercial específica sobre la que se ha capturado el Ítem, por ejemplo, Eastman Kodak, Fuji, 3M, etc."@es,
+        "(3.1.5.14) Décrit la marque spécifique du support sur lequel l'Item est fixé, par exemple, Eastman Kodak, Fuji, 3M, etc."@fr .
+
+<https://fiafcore.org/ontology/hasStockBatch> a owl:DatatypeProperty ;
+    rdfs:label "Has Stock Batch"@en,
+        "Tiene Lote de Fabricación"@es,
+        "A Un Numéro de Lot"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.15"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.15"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.15"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Stock> ;
+    rdfs:range xsd:string ;
+    skos:definition "(3.1.5.15) Identifying the batch number can assist in identifying problems related to specific manufactured batches."@en,
+        "(3.1.5.15) La identificación del número de lote puede ayudar a identificar problemas relacionados con lotes manufacturados específicos."@es,
+        "(3.1.5.15) Il s'agit du numéro de lot sur lequel l'Item est fixé, qu'il s'agisse de matériel vidéo, audio, optique ou numérique."@fr .
+
+<https://fiafcore.org/ontology/hasStorageLocation> a owl:DatatypeProperty ;
+    rdfs:label "Has Storage Location"@en,
+        "Tiene Localización del Ítem"@es,
+        "A Une Localisation de l'Item"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.6.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.6.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.6.2"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range xsd:string ;
+    skos:definition "(3.1.6.2) Item descriptions should indicate a storage location number in order to provide access and retrieval."@en,
+        "(3.1.6.2) Las descripciones de Ítems deben indicar un número de localización de almacenaje con el propósito de proveer acceso y recuperación"@es,
+        "(3.1.6.2) Les notices d'Items doivent indiquer un numéro d'emplacement afin de permettre d'y accéder et de les localiser."@fr .
+
+<https://fiafcore.org/ontology/hasStream> a owl:ObjectProperty ;
+    rdfs:label "Has Stream"@en,
+        "[NEEDS TRANSLATION] Tiene Stream"@es,
+        "[NEEDS TRANSLATION] A Un Flux d'Images"@fr ;
+    rdfs:comment "Glossary of Technical Terms TRACK (2)"@en,
+        "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"@es,
+        "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item> ;
+    rdfs:range <https://fiafcore.org/ontology/Stream> ;
+    skos:definition "(TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."@en,
+        "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."@es,
+        "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."@fr .
+
+<https://fiafcore.org/ontology/hasTitle> a owl:ObjectProperty ;
+    rdfs:label "Has Title"@en,
+        "Tiene Título"@es,
+        "A Un Titre"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.2.1, 2.3.2.1, 3.1.2.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.2.1, 2.3.2.1, 3.1.2.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.2.1, 2.3.2.1, 3.1.2.1"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Item>,
+        <https://fiafcore.org/ontology/Manifestation>,
+        <https://fiafcore.org/ontology/Variant>,
+        <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/Title> ;
+    skos:definition "(1.3.2.1) Where relevant for an institution, if the Work/Variant or Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant Variant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (2.3.2.1) Where relevant for an institution, if the Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (3.1.2.1) Note the source of title information."@en,
+        "(1.3.2.1) Si la Obra, Variante o Manifestación incluye múltiples títulos, relevantes para la institución, tales como un título en otro idioma de una variante doblada o subtitulada; registre las variantes del título y asocie cada título con “Tipo de Título” para diferenciar entre los varios tipos de Títulos. (2.3.2.1) Cuando sea relevante para una institución, si la Manifestación incluye multiples títulos, tales como un título en otro idioma para una variante doblada o subtitulada, entonces, registre los títulos relevantes y asocie un “Tipo de Título” a cada uno de éstos para diferenciarlos. (3.1.2.1) Anote la fuente de información del título."@es,
+        "(1.3.2.1) Le cas échéant, si l'Œuvre/la Variante ou la Manifestation comporte des titres multiples, tels qu'un titre dans une autre langue pour une Variante doublée ou sous-titrée, enregistrez les titres alternatifs pertinents et associez pour chacun un «type de titre» pour les différencier. (2.3.2.1) Si la Manifestation comprend plusieurs titres, tels que le titre dans une autre langue pour une Variante doublée ou sous-titrée, vous pouvez enregistrer les différents titres et leur associer à chacun un «type de titre » pour les différencier. (3.1.2.1) Enregistrez la source d'information."@fr .
+
+<https://fiafcore.org/ontology/hasTitleText> a owl:DatatypeProperty ;
+    rdfs:label "Has Title Text"@en,
+        "Tiene Texto de Título"@es,
+        "A Un Texte de Titre"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.2, 2.3.2, 3.1.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.2, 2.3.2, 3.1.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.2, 2.3.2, 3.1.2"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Title> ;
+    rdfs:range xsd:string ;
+    skos:definition "(1.3.2) Record at least one title, identifying phrase, or name for the moving image Work or Variant. (2.3.2) Record at least one title, identifying phrase, or name for the Manifestation Title. (3.1.2) Record at least one title, identifying phrase, or name for the moving image Item Title."@en,
+        "(1.3.2) Registre al menos un título, frase de identificación o nombre a la Obra o Variante de imágenes en movimiento. (2.3.2) Registre al menos un título, frase identificadora o nombre como el Título de la Manifestación. (3.1.2) Registre al menos un título, frase identificadora o nombre del Ítem de imágenes en movimiento."@es,
+        "(1.3.2) Enregistrez au moins un titre, une expression identifiante ou un nom pour l'Œuvre ou la Variante. (2.3.2) Enregistrez au moins un titre, une expression identifiante ou un nom dans le champ titre de la Manifestation. (3.1.2) Enregistrez au moins un titre, une expression identifiante ou un nom dans le champ titre de l'Item."@fr .
+
+<https://fiafcore.org/ontology/hasVariant> a owl:ObjectProperty ;
+    rdfs:label "Has Variant"@en,
+        "Tiene Variante"@es,
+        "A Une Variante"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.5"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.5"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.5"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Work> ;
+    rdfs:range <https://fiafcore.org/ontology/Variant> ;
+    skos:definition "(1.4.5) Express the relationship between a moving image Work and a moving image Variant (e.g., Part/part of). Describe or demonstrate Work-to-Variant relationships through linking to the Work identifier, through the usage of relator terms, or according to the confines of your data structure."@en,
+        "(1.4.5) Exprese la relación entre una Obra de imágenes en movimiento y una Variante de imágenes en movimiento (por ejemplo, “parte/parte de”). Describa o demuestre las relaciones “Obra con Variante” mediante la vinculación por medio del identificador de la Obra, a través del uso de términos de relación o de acuerdo con los confínes de su estructura institucional."@es,
+        "(1.4.5) Exprimez la relation entre une Œuvre et une Variante (p. ex., contient/est contenu dans). Décrivez ou rendez visibles les relations entre l'Œuvre et la Variante en faisant un lien vers l'identifiant de l'Œuvre, en qualifiant les relations ou selon les possibilités offertes par la structure des données de l'institution."@fr .
+
+<https://fiafcore.org/ontology/hasVariantType> a owl:ObjectProperty ;
+    rdfs:label "Has Variant Type"@en,
+        "Tiene Tipo de Variante"@es,
+        "A Un Type de Variante"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.2.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.2.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.2.2"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Variant> ;
+    rdfs:range <https://fiafcore.org/ontology/VariantType> ;
+    skos:definition "(1.2.2) Identify and describe the kind of change from a Work that gives rise to any instance(s) of a Variant."@en,
+        "(1.2.2) Identifique y describa el tipo de cambio a partir de una Obra de la que ha surgido una Variante."@es,
+        "(1.2.2) Identifiez et décrivez le type de changement par rapport à une Œuvre qui donne lieu à une ou plusieurs Variante(s)."@fr .
+
+<https://fiafcore.org/ontology/hasVideoCodec> a owl:ObjectProperty ;
+    rdfs:label "Has Video Codec"@en,
+        "Tiene Codificación de Video"@es,
+        "A Un Codec Video"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.16"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.16"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.16"@fr ;
+    rdfs:domain <https://fiafcore.org/ontology/Stream> ;
+    rdfs:range <https://fiafcore.org/ontology/VideoCodec> ;
+    skos:definition "(3.1.5.16) The video compression standard used in the digital video Item, for example, D10, MP4, etc."@en,
+        "(3.1.5.16) La norma de compresión de video usada en un Ítem de video digital, por ejemplo, D10, MP4, etc."@es,
+        "(3.1.5.16) Il s'agit du standard de compression vidéo utilisé dans l'Item vidéo numérique, par exemple, D10, MP4, etc."@fr .
+
+<https://fiafcore.org/ontology/Agent> a owl:Class ;
+    rdfs:label "Agent"@en,
+        "Agente"@es,
+        "Agent"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.1, 2.4.1, 3.3.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.1, 2.4.1, 3.3.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.1, 2.4.1, 3.3.1"@fr ;
+    skos:definition "(1.4.1) An Agent is defined as an entity that is involved in the creation, realisation, curation or exploitation of a Work/Variant and who is considered to have major responsibility for, or be of major importance to, the Work/Variant. (2.4.1) An Agent for moving image Manifestations is defined as an entity that is involved in the exploitation (release, distribution, broadcasting), publishing, manufacturing or preservation of a Manifestation and who is considered to have major responsibility for, or be of major importance to, the Manifestation. (3.3.1) An Agent for moving image Items is defined as an entity that is involved in the acquisition, movement (for loans, inspection, storage, etc.), or preservation of a moving image Item and who is considered to have major responsibility for, or be of major importance to, the moving image Item."@en,
+        "(1.4.1) Se define a un Agente como una entidad involucrada en la creación, realización, curaduría, o explotación de una Obra/Variante; a quien se considera que tiene una responsabilidad mayor, o que es de importancia mayor para la Obra/Variante. (2.4.1) Un Agente de Manifestaciones de imágenes en movimiento se define como una entidad que está involucrada en la explotación (estreno, distribución, transmisión), publicación, fabricación o preservación de una Manifestación; a quien se considera responsable o de mayor importancia para la Manifestación. (3.3.1) Un Agente de Ítems de imágenes en movimiento se define como una entidad que está involucrada en la adquisición, los movimientos (para préstamo, inspección, almacenamiento, etc.) o la preservación de un Ítem de imágenes en movimiento; quien se considera que tiene una responsabilidad mayor o de la más extensa importancia, para el Ítem de imágenes en movimiento."@es,
+        "(1.4.1) Un Agent est défini comme une entité impliquée dans la création, la réalisation, le traitement ou l'exploitation d'une Œuvre/Variante. Il est considéré comme ayant une responsabilité majeure ou étant d'une importance majeure pour l'Œuvre/la Variante. (2.4.1) Un Agent lié à une Manifestation est défini comme une entité impliquée dans l'exploitation (sortie, distribution, diffusion), l'édition, la fabrication ou la préservation d'une Manifestation. Il est considéré comme ayant une responsabilité majeure, ou étant d'une importance majeure, pour la Manifestation. (3.3.1) Un Agent lié à un Item est défini comme une entité impliquée dans l'acquisition, les mouvements (pour les prêts, les analyses, le stockage, etc.) ou la conservation d'un Item. Il est considéré comme ayant une responsabilité majeure, ou étant d'une importance majeure pour l'Item."@fr .
+
+<https://fiafcore.org/ontology/AudioCodec> a owl:Class ;
+    rdfs:label "Audio Codec"@en,
+        "Codificación de Audio"@es,
+        "Codec audio"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.17"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.17"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.17"@fr ;
+    skos:definition "(3.1.5.17) The audio compression standard used in the audio file, whether it is contained in a wrapper with a video file or as a standalone audio file."@en,
+        "(3.1.5.17) Se refiere a la norma de compresión de audio aplicada en el archivo de audio, ya sea que esté contenida en conjunto con el video o como un archivo de audio independiente."@es,
+        "(3.1.5.17) Il s'agit du standard de compression audio utilisé dans un fichier son, qu'il soit dans un format conteneur avec un fichier vidéo ou qu'il existe en tant que fichier audio distinct."@fr .
+
+<https://fiafcore.org/ontology/Base> a owl:Class ;
+    rdfs:label "Base"@en,
+        "Base"@es,
+        "Base"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.13"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.13"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.13"@fr ;
+    skos:definition "(3.1.5.13) The physical material or video format on which the Item is captured, for example, describing the flexible transparent material that supports a film items’ emulsion or a magnetic track, (e.g., acetate, nitrate, CTA, etc.)."@en,
+        "(3.1.5.13) El material físico o el formato de video sobre el que se ha capturado el Ítem, por ejemplo, la descripción del material flexible transparente que soporta la emulsión de la película de un Ítem o una pista magnética (por ejemplo, acetato, nitrato, CTA, etc.)"@es,
+        "(3.1.5.13) Le matériel physique ou le format vidéo sur lequel l’Item est fixé, décrivant par exemple le support souple et transparent sur lequel est fixée l’émulsion d’un film ou d’une bande magnétique (p. ex. acétate, nitrate, triacétate, etc.)."@fr .
+
+<https://fiafcore.org/ontology/BroadcastStandard> a owl:Class ;
+    rdfs:label "Broadcast Standard"@en,
+        "Norma de Transmisión de Video"@es,
+        "Standard de Télédiffusion"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.10"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.10"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.10"@fr ;
+    skos:definition "(3.1.5.10) The broadcast standard for a video or DVD/BluRay: NTSC, PAL, SECAM."@en,
+        "(3.1.5.10) La norma de transmisión de video o DVD / BluRay puede ser: NTSC, PAL, SECAM."@es,
+        "(3.1.5.10) Il s'agit des standards de codage pour les vidéos ou DVD/Blu-ray : NTSC, PAL, SECAM."@fr .
+
+<https://fiafcore.org/ontology/Carrier> a owl:Class ;
+    rdfs:label "Carrier"@en,
+        "Portador"@es,
+        "Type de Support"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.1, 3.1.5.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.1, 3.1.5.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.1, 3.1.5.1"@fr ;
+    skos:definition "(2.3.4.1) Carrier type is the medium on or the encoding format in which the Manifestation is fixed. (3.1.5.1) Carrier type is the medium on or the encoding format in which the Item is fixed."@en,
+        "(2.3.4.1) El tipo de portador es el medio en el que se almacena o se codifica una Manifestación. (3.1.5.1) Se refiere al formato de codificación o el medio en el que se ha fijado el Ítem."@es,
+        "(2.3.4.1) Le type de support désigne le support ou le format d'encodage sur lequel la Manifestation est fixée. (3.1.5.1) Le type de support est le support ou le format d'encodage sur lequel l'Item est fixé."@fr .
+
+<https://fiafcore.org/ontology/ColourStandard> a owl:Class ;
+    rdfs:label "Colour Standard"@en,
+        "Estándar de Color"@es,
+        "Procédé Couleur"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.4"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.4"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.4"@fr ;
+    skos:definition "(2.3.4.4) Optionally, if considered relevant, describe the system or process by which colour is fixed on the carrier or as part of the digital encoding, for example, Pathécolor, Technicolor, RGB, etc."@en,
+        "(2.3.4.4) Optativamente, si se considera relevante, describa el sistema o proceso mediante el cual se fijó el color en el portador o como parte de la codificación digital, por ejemplo, Pathécolor, Technicolor, RGB, etc."@es,
+        "(2.3.4.4) Le cas échéant, décrivez le procédé de fixation de la couleur sur le support ou son encodage numérique, par exemple, Pathécolor, Technicolor, RVB, etc."@fr .
+
+<https://fiafcore.org/ontology/Country> a owl:Class ;
+    rdfs:label "Country"@en,
+        "País"@es,
+        "Pays"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.3"@fr ;
+    skos:definition "(1.3.3) Where known and applicable, record the geographic origin of the moving image Work/Variant."@en,
+        "(1.3.3) Cuando se conozca y aplique el caso, registre el origen geográfico de la Obra o Variante de imágenes en movimiento."@es,
+        "(1.3.3) Si elle est connue, enregistrez l'origine géographique de l'Œuvre/de la Variante."@fr .
+
+<https://fiafcore.org/ontology/Element> a owl:Class ;
+    rdfs:label "Element"@en,
+        "Elemento"@es,
+        "Type"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.4"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.4"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.4"@fr ;
+    skos:definition "(3.1.4) Record the nature or function of the moving image Item, describing its place in thephotochemical or digital production or duplication process, for example, “original negative,” “duplicate negative,” etc."@en,
+        "(3.1.4) Registre la naturaleza o función del Ítem de imágenes en movimiento, describiendo su lugar en la producción fotoquímica o digital o en el proceso de duplicación, por ejemplo, “negativo original”, “negativo duplicado”, etc."@es,
+        "(3.1.4) Enregistrez la nature ou la fonction de l'Item, en décrivant sa place dans les procédés de production ou de duplication photochimique ou numérique, par exemple, « négatif original », « contretype négatif », etc."@fr .
+
+<https://fiafcore.org/ontology/Form> a owl:Class ;
+    rdfs:label "Form"@en,
+        "Forma"@es,
+        "Forme"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.3"@fr ;
+    skos:definition "(1.4.3) Form describes the format and/or purpose of a Work, e.g., “non-fiction”, “short” and “animation” are particular forms or identifiers."@en,
+        "(1.4.3) Un término de Forma describe el formato y/o propósito de una Obra (por ejemplo, “no-ficción”, “cortos” y “animación” son formas particulares o identificadores"@es,
+        "(1.4.3) La forme décrit le format et/ou la caractérisation d'une Œuvre, p. ex. « non-fiction », « court métrage » et « animation » sont des formes ou des identifiants"@fr .
+
+<https://fiafcore.org/ontology/Genre> a owl:Class ;
+    rdfs:label "Genre"@en,
+        "Género"@es,
+        "Genre"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.3"@fr ;
+    skos:definition "(1.4.3) Genre describes categories of Works, characterized by similar plots, themes, settings, situations, and characters. Examples of genres are “westerns” and “thrillers”."@en,
+        "(1.4.3) Los términos de Género describen categorías de Obras, caracterizadas por tramas, temas, ambientación o situaciones y personajes similares. Son ejemplos de géneros los “westerns” y “thrillers”."@es,
+        "(1.4.3) Le genre décrit des catégories d'Œuvres, caractérisées par des intrigues, des thèmes, des décors, des situations et des personnages similaires. Des exemples de genres sont les « westerns » et les « thrillers »."@fr .
+
+<https://fiafcore.org/ontology/HoldingInstitution> a owl:Class ;
+    rdfs:label "Holding Institution"@en,
+        "Institución Propietaria"@es,
+        "Établissement Détenteur"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.3"@fr ;
+    skos:definition "(3.1.3) Record the name of the institution possessing the moving image Item or authorised to make it available."@en,
+        "(3.1.3) Registre el nombre de la institución que posee el Ítem de imágenes en movimiento o que está autorizada para hacerlo disponible."@es,
+        "(3.1.3) Enregistrez le nom de l'institution qui détient l'Item ou qui est autorisé à le mettre à disposition."@fr .
+
+<https://fiafcore.org/ontology/Language> a owl:Class ;
+    rdfs:label "Language"@en,
+        "Idioma"@es,
+        "Langue"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.5.1, 2.3.3.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.5.1, 2.3.3.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.5.1, 2.3.3.1"@fr ;
+    skos:definition "(1.3.5.1) Record the language(s) by taking the most suitable value(s) from a controlled list of languages. (2.3.3.1) Where possible, record the language(s) using the full form of name, e.g., French, Italian, etc. rather than abbreviations or codes, by taking the most suitable value(s) from a controlled list."@en,
+        "(1.3.5.1) Registre el(los) idioma(s) tomando el(los) valor(es) más apropiados de una lista controlada de idiomas. (2.3.3.1) Cuando sea posible, registre el(los) idioma(s) utilizando la forma completa del nombre, por ejemplo, francés, italiano, etc. en lugar de abreviaturas o códigos."@es,
+        "(1.3.5.1) Enregistrez le(s) langue(s) en choisissant la valeur la plus juste dans une liste contrôlée. (2.3.3.1) Dans la mesure du possible, enregistrez la ou les langue(s) en utilisant la forme complète, p. ex. français, italien, etc. plutôt que des abréviations ou des codes, en choisissant la ou les valeur(s) les plus appropriées dans une liste contrôlée."@fr .
+
+<https://fiafcore.org/ontology/Location> a owl:Class ;
+    rdfs:label "Location"@en,
+        "Localidad"@es,
+        "Lieu"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual D.4.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento D.4.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF D.4.3"@fr ;
+    skos:definition "(D.4.3) Any geographic name(s) or address(es) of the location(s) where the event took place"@en,
+        "(D.4.3) Cualquier nombre(s) geográfico(s) o dirección(es) de la(s) ubicación(es) donde tuvo lugar el evento."@es,
+        "(D.4.3) Tout/tous nom(s) ou adresse(s) du ou des lieu(x) où l'événement s'est déroulé. "@fr .
+
+<https://fiafcore.org/ontology/Resolution> a owl:Class ;
+    rdfs:label "Resolution"@en,
+        "Resolución"@es,
+        "Résolution"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.18"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.18"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.18"@fr ;
+    skos:definition "(3.1.5.18) Note whether the Item's resolution is Standard Definition, High Definition, etc."@en,
+        "(3.1.5.18) Registre si la resolución del Ítem corresponde a Definición Regular(Standard Definition), Alta Definición(High Definition), etc."@es,
+        "(3.1.5.18) Indiquez si la résolution de l'Item est en définition standard, en haute définition, etc."@fr .
+
+<https://fiafcore.org/ontology/SoundFixation> a owl:Class ;
+    rdfs:label "Sound Fixation"@en,
+        "Configuración del Canal de Sonido"@es,
+        "Configuration des Canaux Audio"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.3.2, 3.1.5.4"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3.2, 3.1.5.4"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.3.2, 3.1.5.4"@fr ;
+    skos:definition "(2.3.4.3.2) If the Manifestation has sound, note here the track configuration (e.g., mono, stereo, etc.). (3.1.5.4) If the Item has sound, note here the track configuration (e.g., mono, stereo, etc.)"@en,
+        "(2.3.4.3.2) Si la Manifestación tiene sonido, registre la configuración de la pista (por ejemplo, mono, estéreo, etc.). (3.1.5.4) Si el Ítem tiene sonido, anote aquí la configuración de la pista (por ejemplo, mono, estereo, etc.)."@es,
+        "(2.3.4.3.2) Si la Manifestation comporte du son, notez ici la configuration des pistes (par exemple, mono, stéréo, etc.). (3.1.5.4) Si l'Item comporte du son, indiquez ici la configuration des pistes (par exemple, mono, stéréo, etc.)."@fr .
+
+<https://fiafcore.org/ontology/SoundStandard> a owl:Class ;
+    rdfs:label "Sound Standard"@en,
+        "Sistemas de sonido"@es,
+        "Procédé Sonore"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.3.1, 3.1.5.5"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3.1, 3.1.5.5"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.3.1, 3.1.5.5"@fr ;
+    skos:definition "(2.3.4.3.1) Describes the technical or proprietary system used to record the sound on a Manifestation/Item, for example, Dolby SR, Dolby Digital, etc. (3.1.5.5) Describes the technical or proprietary system used to record the sound on a Manifestation/Item, for example, Dolby SR, Dolby Digital, etc."@en,
+        "(2.3.4.3.1) Describa el sistema técnico o el sistema patentado que se ha utilizado para grabar el sonido de la Manifestación, por ejemplo, Dolby SR, Dolby Digital, etc. (3.1.5.5) Describe el sistema técnico utilizado para grabar el sonido en una Manifestación/Ítem, por ejemplo, Dolby SR, Dolby Digital, etc."@es,
+        "(2.3.4.3.1) Décrit le système technique ou propriétaire utilisé pour enregistrer le son sur une Manifestation/un Item, par exemple, Dolby SR, Dolby Digital, DTS, etc. (3.1.5.5) Le procédé sonore décrit le système technique ou propriétaire utilisé pour enregistrer le son sur une Manifestation/un Item, par exemple, Dolby SR, Dolby Digital, Dolby Digital, etc."@fr .
+
+<https://fiafcore.org/ontology/SourceDevice> a owl:Class ;
+    rdfs:label "Source Device"@en,
+        "Dispositivo para reproducción"@es,
+        "Périphérique de Lecture"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.21"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.21"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.21"@fr ;
+    skos:definition "(3.1.5.21) Record the source playback device used in transfer projects. This can be a video deck, film printer, or hardware."@en,
+        "(3.1.5.21) Registre el dispositivo fuente de reproducción utilizado en proyectos de transferencia. Este puede corresponder al tablero de video, la impresora de película o el equipo de computadora."@es,
+        "(3.1.5.21) Indiquez les appareils utilisés dans les projets de transfert. Il peut s'agir d'une station vidéo, d'une tireuse cinématographique ou de matériel informatique."@fr .
+
+<https://fiafcore.org/ontology/SourceSoftware> a owl:Class ;
+    rdfs:label "Source Software"@en,
+        "Software Fuente"@es,
+        "Logiciel"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.22"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.22"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.22"@fr ;
+    skos:definition "(3.1.5.22) Record the source software used in playing a digital file."@en,
+        "(3.1.5.22) Registre el software que se requiere para reproducir un archivo digital."@es,
+        "(3.1.5.22) Indiquez le logiciel utilisé pour lire un fichier numérique."@fr .
+
+<https://fiafcore.org/ontology/Status> a owl:Class ;
+    rdfs:label "Status"@en,
+        "Estado"@es,
+        "Statut"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.2"@fr ;
+    skos:definition "(3.1.5.2) Description of the preservation or access status of the Item, for example Master, Viewing, etc."@en,
+        "(3.1.5.2) Descripción del estado de preservación o el estado de acceso del Ítem, por ejemplo: máster, visualización, etc."@es,
+        "(3.1.5.2) Il s'agit de la description du statut de conservation ou d'accès de l'Item, p. ex. Master, copie de visionnage, etc."@fr .
+
+<https://fiafcore.org/ontology/VariantType> a owl:Class ;
+    rdfs:label "Variant Type"@en,
+        "Tiene Variante"@es,
+        "Type de Variante"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.2.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.2.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.2.2"@fr ;
+    skos:definition "(1.2.2) Identify and describe the kind of change from a Work that gives rise to any instance(s) of a Variant."@en,
+        "(1.2.2) Identifique y describa el tipo de cambio a partir de una Obra de la que ha surgido una Variante."@es,
+        "(1.2.2) Identifiez et décrivez le type de changement par rapport à une Œuvre qui donne lieu à une ou plusieurs Variante(s)."@fr .
+
+<https://fiafcore.org/ontology/VideoCodec> a owl:Class ;
+    rdfs:label "Video Codec"@en,
+        "Codificación de Video"@es,
+        "Codec Video"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.16"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.16"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.16"@fr ;
+    skos:definition "(3.1.5.16) The video compression standard used in the digital video Item, for example, D10, MP4, etc."@en,
+        "(3.1.5.16) La norma de compresión de video usada en un Ítem de video digital, por ejemplo, D10, MP4, etc."@es,
+        "(3.1.5.16) Il s'agit du standard de compression vidéo utilisé dans l'Item vidéo numérique, par exemple, D10, MP4, etc."@fr .
+
+<https://fiafcore.org/ontology/Activity> a owl:Class ;
+    rdfs:label "Activity"@en,
+        "Actividad"@es,
+        "Activité"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.1.1, 2.4.1.1, 3.3.1.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.1.1, 2.4.1.1, 3.3.1.1"@fr ;
+    skos:definition "(1.4.1.1) This describes the activity or role of the Agent in relation to the moving image Work/Variant (e.g. credit terms). (2.4.1.1) Describes the activity of the Agent(s) to make explicit the relationship(s) between the Agent(s) and the Manifestation. (3.3.1.1) Describes the activity of the Agent to make explicit the relationship(s) between the Agent and the Item."@en,
+        "(1.4.1.1) Este describe la actividad o papel de un agente en relación con la Obra/Variante de imágenes en movimiento (por ejemplo, en los créditos). (2.4.1.1) Describa la actividad del Agente(s) para hacer explícitas las relaciones entre los Agente(s) y la Manifestación. (3.3.1.1) Describe la actividad del Agente al hacer explícita las relaciones entre el Agente y el Ítem."@es,
+        "(1.4.1.1) Ce chapitre décrit l'activité ou le rôle de l'Agent en relation avec l'Œuvre/la Variante (p. ex. termes utilisés au générique). (2.4.1.1) Ce champ décrit l'activité de l'Agent afin de rendre explicite la ou les relation(s) entre l'Agent ou les Agents avec la Manifestation. (3.3.1.1) Décrit l'activité de l'Agent afin de rendre explicite la ou les relation(s) entre l'Agent ou les Agents avec l'Item."@fr .
+
+<https://fiafcore.org/ontology/ColourCharacteristic> a owl:Class ;
+    rdfs:label "Colour Characteristic"@en,
+        "Características de Color"@es,
+        "Caractéristique de Couleur"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.4, 3.1.5.6"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.4, 3.1.5.6"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.4, 3.1.5.6"@fr ;
+    skos:definition "(2.3.4.4) The presence of colour(s), tone(s), etc. in a Manifestation. (3.1.5.6) The presence of colour(s), tone(s), etc. in an Item."@en,
+        "(2.3.4.4) Se refiere a la presencia de color(es), tono(s), etc., en una Manifestación. (3.1.5.6) La presencia de color(es), tono(s), etc., en un Ítem."@es,
+        "(2.3.4.4) Indique la présence de couleur(s), teinte(s), etc. dans une Manifestation. (3.1.5.6) Il s'agit de signaler la présence de couleur(s), teinte(s), etc. dans un Item."@fr .
+
+<https://fiafcore.org/ontology/Condition> a owl:Class ;
+    rdfs:label "Condition"@en,
+        "Condición"@es,
+        "État"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.6.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.6.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.6.1"@fr ;
+    skos:definition "(3.1.6.1) Record the condition of the Item including its base and/or emulsion and/or perforations, where applicable."@en,
+        "(3.1.6.1) Registre la condición del Ítem incluída su base y/o emulsión y/o perforaciones, donde sea aplicable."@es,
+        "(3.1.6.1) Enregistrez l'état de l'Item, y compris la nature du support et/ou son émulsion et/ou ses perforations, le cas échéant."@fr .
+
+<https://fiafcore.org/ontology/Extent> a owl:Class ;
+    rdfs:label "Extent"@en,
+        "Extensión"@es,
+        "Étendue"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.5, 3.1.5.8"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.5, 3.1.5.8"@fr ;
+    skos:definition "(2.3.5) The concept of extent as applied to Manifestations is the“ ideal” logical, physical, or temporal(duration) units and not a description of a real physical object. (3.1.5.8)The actual physical / digital extent is a characteristic of a singular Item, since it can be different for multiple Items exemplifying the same moving image Manifestation."@en,
+        "(2.3.5) El concepto de extensión tal como se aplica en las Manifestaciones se refiere a las unidades lógicas, físicas o temporales (duración) “ideales”; y no a la descripción de un objeto físico real. (3.1.5.8) La extension física y/o digital es una característica de un Ítem específico, ya que puede diferir de múltiples Ítems ejemplificando a la misma Manifestación de imágenes en movimiento."@es,
+        "(2.3.5) Le concept d'étendue appliqué à la Manifestation désigne des unités logiques, matérielles ou temporelles (durée) « idéales » et non celles d'un objet physique réel. (3.1.5.8) L'étendue matérielle/numérique réelle caractérise un Item en particulier et peut être différente pour chaque Item distinct représentant un exemplaire d'une même Manifestation."@fr .
+
+<https://fiafcore.org/ontology/Identifier> a owl:Class ;
+    rdfs:label "Identifier"@en,
+        "Identificador"@es,
+        "Identifiant"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.1.1, 2.3.1.1, 3.1.1.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.1.1, 2.3.1.1, 3.1.1.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.1.1, 2.3.1.1, 3.1.1.1"@fr ;
+    skos:definition "(1.3.1.1) If an institution's system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. (2.3.1.1) If an institution’s system allows, as with the Work/Variant Identifiers a “Type” can be applied with an Identifier to define the source of the Identifier. (3.1.1.1) If an institution’s system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. Examples: Barcode, Shelf mark, Accession number."@en,
+        "(1.3.1.1) Si una institución lo permite, un “Tipo” puede aplicarse con un identificador para definir la fuente del identificador. (2.3.1.1) Si el Sistema institucional lo permite, así como con los identificadores de Obra/Variante, se puede aplicar un atributo para definir la fuente del Identificador. (3.1.1.1) Si el sistema institucional lo permite, puede agregar un elemento que defina la fuente del Identificador, por ejemplo: código de barras, código de estantería, número de acceso."@es,
+        "(1.3.1.1) Si le système de gestion de l'institution le permet, un « type » peut être associé à l'identifiant afin d'en définir la source. (2.3.1.1) Si le système de l'institution le permet, comme dans le cas des identifiants d'Œuvres/Variantes, un « type » peut être appliqué à un identifiant pour en indiquer la source. (3.1.1.1) Si le système de l'institution le permet, un « type » peut être appliqué à un identifiant pour en définir la source. Exemples : code-barres, numéro d'étagère, numéro d'entrée."@fr .
+
+<https://fiafcore.org/ontology/LanguageUsage> a owl:Class ;
+    rdfs:label "Language Usage"@en,
+        "Uso del Idioma"@es,
+        "Utilisation de Langue"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.5.2, 2.3.3.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.5.2, 2.3.3.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.5.2, 2.3.3.2"@fr ;
+    skos:definition "(1.3.5.2) Record the usage type of a language (e.g. spoken, intertitles, subtitles, etc.) by taking the most suitable term from a controlled list elaborated in-house or referring to an existing authoritative list. (2.3.3.2) More than one language can occur in different forms, depending on how the content is expressed: the usage type of the languages defines the form with which the language is expressed, for example, spoken, sung, written, etc."@en,
+        "(1.3.5.2) Registre el Tipo de uso de un idioma (por ejemplo: hablada, intertítulos, subtítulos, etc.); tomando el término más adecuado de una lista controlada elaborada en la institución o con referencia a una lista autorizada. (2.3.3.2) Un idioma puede presentarse en más de una forma, dependiendo del contexto: el Tipo de uso del idioma define su expresión, por ejemplo: hablado, cantado, escrito, etc."@es,
+        "(1.3.5.2) Enregistrez le type d'utilisation d'une langue (p. ex. parlée, intertitres, sous-titres, etc.) en choisissant le terme le plus approprié à partir d'une liste contrôlée interne ou en vous référant à une liste d'autorité existante. (2.3.3.2) Il est possible que plusieurs langues apparaissent dans la Manifestation, selon la façon dont le contenu se présente. Le type d'utilisation des langues définit la forme sous laquelle la langue est exprimée, par exemple, parlée, chantée, écrite, etc."@fr .
+
+<https://fiafcore.org/ontology/ProjectionCharacteristic> a owl:Class ;
+    rdfs:label "Projection Characteristic"@en,
+        "Característica de Proyección"@es,
+        "Caractéristique de Projection"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.2, 3.1.5.9"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.2, 3.1.5.9"@fr ;
+    skos:definition "(2.3.4.2) The projection characteristics of a Manifestation include aspect ratio and aperture or image format. (3.1.5.9) The projection characteristics of a Manifestation/Item include aspect ratio and aperture or image format."@en,
+        "(2.3.4.2) Las características de proyección de una Manifestación incluyen la proporción dimensional y la apertura o formato de imagen. (3.1.5.9) Las características de proyección de una Manifestación/Ítem pueden incluir la proporción dimensional y el formato de imagen o apertura."@es,
+        "(2.3.4.2) Les caractéristiques de projection d'une Manifestation comprennent le ratio et l'ouverture ou format de l'image. (3.1.5.9) Les caractéristiques de projection d'une Manifestation/d'un Item comprennent le ratio et l'ouverture ou format de l'image."@fr .
+
+<https://fiafcore.org/ontology/Stock> a owl:Class ;
+    rdfs:label "Stock"@en,
+        "Stock"@es,
+        "Marque du Support"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.1.5.14"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.14"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 3.1.5.14"@fr ;
+    skos:definition "(3.1.5.14) Describes the specific stock/brand on which the Item is captured, for example, Eastman Kodak, Fuji, 3M, etc."@en,
+        "(3.1.5.14) Describe el tipo o la marca comercial específica sobre la que se ha capturado el Ítem, por ejemplo, Eastman Kodak, Fuji, 3M, etc."@es,
+        "(3.1.5.14) Décrit la marque spécifique du support sur lequel l'Item est fixé, par exemple, Eastman Kodak, Fuji, 3M, etc."@fr .
+
+<https://fiafcore.org/ontology/Title> a owl:Class ;
+    rdfs:label "Title"@en,
+        "Título"@es,
+        "Titre"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.3.2.1, 2.3.2.1, 3.1.2.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.3.2.1, 2.3.2.1, 3.1.2.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.3.2.1, 2.3.2.1, 3.1.2.1"@fr ;
+    skos:definition "(1.3.2.1) Where relevant for an institution, if the Work/Variant or Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant Variant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (2.3.2.1) Where relevant for an institution, if the Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (3.1.2.1) Note the source of title information."@en,
+        "(1.3.2.1) Si la Obra, Variante o Manifestación incluye múltiples títulos, relevantes para la institución, tales como un título en otro idioma de una variante doblada o subtitulada; registre las variantes del título y asocie cada título con “Tipo de Título” para diferenciar entre los varios tipos de Títulos. (2.3.2.1) Cuando sea relevante para una institución, si la Manifestación incluye multiples títulos, tales como un título en otro idioma para una variante doblada o subtitulada, entonces, registre los títulos relevantes y asocie un “Tipo de Título” a cada uno de éstos para diferenciarlos. (3.1.2.1) Anote la fuente de información del título."@es,
+        "(1.3.2.1) Le cas échéant, si l'Œuvre/la Variante ou la Manifestation comporte des titres multiples, tels qu'un titre dans une autre langue pour une Variante doublée ou sous-titrée, enregistrez les titres alternatifs pertinents et associez pour chacun un «type de titre» pour les différencier. (2.3.2.1) Si la Manifestation comprend plusieurs titres, tels que le titre dans une autre langue pour une Variante doublée ou sous-titrée, vous pouvez enregistrer les différents titres et leur associer à chacun un «type de titre » pour les différencier. (3.1.2.1) Enregistrez la source d'information."@fr .
+
+<https://fiafcore.org/ontology/SoundCharacteristic> a owl:Class ;
+    rdfs:label "Sound Characteristic"@en,
+        "Características de Sonido"@es,
+        "Caractéristique Sonores"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.3.4.3, 3.1.5.3"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3, 3.1.5.3"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.3.4.3, 3.1.5.3"@fr ;
+    skos:definition "(2.3.4.3) Sound characteristics are technical specifications relating to the placement of sound on a Manifestation. (3.1.5.3) Technical specifications relating to the fixation of sound in a moving image Manifestation/Item."@en,
+        "(2.3.4.3) Las características de sonido son especificaciones técnicas relacionadas con la colocación del sonido en la Manifestación. (3.1.5.3) Las especificaciones técnicas relativas a la fijación del sonido en una Manifestación/Ítem."@es,
+        "(2.3.4.3) Les caractéristiques sonores sont des spécifications techniques relatives à l'emplacement du son sur une Manifestation. (3.1.5.3) Il s'agit des spécifications techniques relatives à la fixation du son sur une Manifestation/un Item."@fr .
+
+<https://fiafcore.org/ontology/Stream> a owl:Class ;
+    rdfs:label "Stream"@en,
+        "[NEEDS TRANSLATION] Stream"@es,
+        "[NEEDS TRANSLATION] Stream"@fr ;
+    rdfs:comment "Glossary of Technical Terms TRACK (2)"@en,
+        "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"@es,
+        "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"@fr ;
+    skos:definition "(TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."@en,
+        "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."@es,
+        "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."@fr .
+
+<https://fiafcore.org/ontology/Event> a owl:Class ;
+    rdfs:label "Event"@en,
+        "Evento"@es,
+        "Événement"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.4.2, 2.4.2, 3.3.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.4.2, 2.4.2, 3.3.2"@fr ;
+    skos:definition "(1.4.2) An Event characterises occurrences in the lifecycle of a moving image Work or its Variants. (2.4.2) An Event characterises occurrences in the life cycle of a moving image Manifestation. Instances of any Event type can have Agent and Other relationships. (3.3.2) An Event characterises occurrences in the life cycle of a moving image Item."@en,
+        "(1.4.2) Un Evento caracteriza ocurrencias en el ciclo de vida de una Obra de imágenes en movimiento o sus Variantes. (2.4.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de una Manifestación de imágenes en movimiento. Así, cualquier tipo de Evento pueden tener relaciones con Agente(s) y con “Otra(s) relación(es)”. (3.3.2) Un Evento caracteriza las ocurrencias en el ciclo de vida de un Ítem de imágenes en movimiento."@es,
+        "(1.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Œuvre ou de ses Variantes. (2.4.2) Un Événement caractérise des occurrences dans le cycle de vie d'une Manifestation. Des instances de tout type d'Événement peuvent avoir des relations d'Agent et d'« Autres ». (3.3.2) Un Événement caractérise des occurrences dans le cycle de vie d’un Item."@fr .
+
+<https://fiafcore.org/ontology/Work> a owl:Class ;
+    rdfs:label "Work"@en,
+        "Obra"@es,
+        "Œuvre"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.0.1"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.0.1"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.0.1"@fr ;
+    skos:definition "(1.0.1) A moving image Work comprises both the intellectual or artistic content and the process of realisation in a cinematographic medium, e.g., what it is called, when it was made, who made it, who was in it, what it is about, etc."@en,
+        "(1.0.1) Una Obra de imágenes en movimiento abarca tanto el contenido intelectual como el contenido artístico y el proceso de realización en un medio cinematográfico, p. ej. cómo se le llama, cuándo fue hecho, quién lo hizo, quién aparece, de qué se trata, etc."@es,
+        "(1.0.1) L'Œuvre composée d'images animées comprend à la fois le contenu intellectuel ou artistique et le processus de réalisation sous une forme cinématographique : comment elle s'intitule, quand elle a été réalisée, qui l'a réalisée, qui y apparaît, de quels sujets elle traite, etc."@fr .
+
+<https://fiafcore.org/ontology/Variant> a owl:Class ;
+    rdfs:label "Variant"@en,
+        "Variante"@es,
+        "Variante"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 1.0.2"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 1.0.2"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 1.0.2"@fr ;
+    skos:definition "(1.0.2) A moving image Variant is an entity that may be used to indicate any change to content-related characteristics that do not significantly change the overall content of a Work as a whole."@en,
+        "(1.0.2) Una Variante de imágenes en movimiento es una entidad que puede usarse para indicar cualquier cambio en las características relativas al contenido, que no modifican de manera significativa el contenido general de una obra como un todo."@es,
+        "(1.0.2) Une Variante est une entité utilisée pour indiquer tout changement dans les caractéristiques liées au contenu, qui ne modifie pas de façon significative le contenu global d'une Œuvre dans son ensemble."@fr .
+
+<https://fiafcore.org/ontology/Manifestation> a owl:Class ;
+    rdfs:label "Manifestation"@en,
+        "Manifestación"@es,
+        "Manifestation"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 2.0"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 2.0"@es,
+        "Le Manuel de catalogage des images animées de la FIAF 2.0"@fr ;
+    skos:definition "(2.0) A moving image Manifestation is the embodiment of a moving image Work/Variant. Manifestations usually include all analogue, digital and online media associated with a particular embodiment of a Work/Variant."@en,
+        "(2.0) Una Manifestación de imágenes en movimiento es la materialización de una Obra/Variante. Las Manifestaciones generalmente incluyen todos los medios analógicos, digitales y en línea, asociados con una particular materialización de una Obra/Variante."@es,
+        "(2.0) Une Manifestation est la matérialisation d'une Œuvre/Variante. Les Manifestations comprennent habituellement tous les médias analogiques, numériques et en ligne associés à une matérialisation particulière d'une Œuvre/Variante."@fr .
+
+<https://fiafcore.org/ontology/Item> a owl:Class ;
+    rdfs:label "Item"@en,
+        "Ítem"@es,
+        "Ítem"@fr ;
+    rdfs:comment "FIAF Moving Image Cataloguing Manual 3.0"@en,
+        "Manual FIAF de Catalogación de Imágenes en Movimiento 3.0"@es,
+        "Le Manuel de catalogage des images animées de la FIAF  3.0"@fr ;
+    skos:definition "(3.0) A moving image Item is the physical or digital product of a Manifestation of a Work or Variant, i.e. the actual copy of a Work or Variant. Whereas the Manifestation record describes the “ideal” of a particular format or publication, the Item record represents the actual holding in a repository's collection."@en,
+        "(3.0) Un Ítem de imágenes en movimiento es el producto físico o digital de la Manifestación de una Obra o Variante, i.e., la copia real de una obra o Variante. Mientras que el registro de la Manifestación describe el “ideal” de un formato o publicación particular, el registro del Ítem representa la existencia real dentro de la colección de un repositorio."@es,
+        "(3.0) Un Item d'une image animée est le produit physique ou numérique de la Manifestation d'une Œuvre ou d'une Variante, c'est-à-dire la copie réelle d'une Œuvre ou d'une Variante. Alors que la notice Manifestation décrit le modèle idéal d'un format ou d'une publication en particulier, l'Item représente le document réel conservé dans la collection d'une institution."@fr .
+
