@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.14"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Filmmaterial"
+            },
+            {
                 "@language": "en",
                 "@value": "Stock"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.14) Filmmaterial beschreibt das spezifische Material bzw. die Firmenmarke, auf dem/der das Exemplar aufgenommen wurde, z.B. Eastman Kodak, Fuji, 3M, usw."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.14) Describes the specific stock/brand on which the Item is captured, for example, Eastman Kodak, Fuji, 3M, etc."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.15"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.15"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Filmmaterialcharge"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Stock Batch"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.15) Die Angabe der Chargennummer kann bei der Identifizierung von Problemen im Zusammenhang mit bestimmten hergestellten Chargen helfen."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.15) Identifying the batch number can assist in identifying problems related to specific manufactured batches."

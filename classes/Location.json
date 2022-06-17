@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken D.4.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual D.4.3"
             },
@@ -19,6 +23,10 @@
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "de",
+                "@value": "Ort"
+            },
             {
                 "@language": "en",
                 "@value": "Location"
@@ -34,8 +42,12 @@
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
             {
+                "@language": "de",
+                "@value": "(D.4.3) Beliebiger geografischer Name oder Adresse des Ortes, an dem das Ereignis stattfand."
+            },
+            {
                 "@language": "en",
-                "@value": "(D.4.3) Any geographic name(s) or address(es) of the location(s) where the event took place"
+                "@value": "(D.4.3) Any geographic name(s) or address(es) of the location(s) where the event took place."
             },
             {
                 "@language": "es",
@@ -43,7 +55,7 @@
             },
             {
                 "@language": "fr",
-                "@value": "(D.4.3) Tout/tous nom(s) ou adresse(s) du ou des lieu(x) où l'événement s'est déroulé. "
+                "@value": "(D.4.3) Tout/tous nom(s) ou adresse(s) du ou des lieu(x) où l'événement s'est déroulé."
             }
         ]
     }

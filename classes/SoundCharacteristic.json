@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.3, 3.1.5.3"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Toneigenschaften"
+            },
+            {
                 "@language": "en",
                 "@value": "Sound Characteristic"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.3) Klangmerkmale sind technische Spezifikationen, die sich auf die Platzierung von Klang auf einer Manifestation beziehen. (3.1.5.3) Technische Spezifikationen zum Ton einer Manifestation bzw. eines Exemplars."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.3) Sound characteristics are technical specifications relating to the placement of sound on a Manifestation. (3.1.5.3) Technical specifications relating to the fixation of sound in a moving image Manifestation/Item."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.3.2, 3.1.5.4"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.3.2, 3.1.5.4"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Tonkanalkonfiguration"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Sound Fixation"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.3.2) Wenn die Manifestation über Ton verfügt, verzeichnen Sie hier die Spurenkonfiguration (z.B. Mono, Stereo, usw.). (3.1.5.4) Wenn das Exemplar über Ton verfügt, verzeichnen Sie im Feld Tonkanalkonfiguration die Spurenkonfiguration (z.B. Mono, Stereo usw.)."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.3.2) If the Manifestation has sound, note here the track configuration (e.g., mono, stereo, etc.). (3.1.5.4) If the Item has sound, note here the track configuration (e.g., mono, stereo, etc.)"
@@ -112,6 +136,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.3.1, 3.1.5.5"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.3.1, 3.1.5.5"
             },
@@ -131,6 +159,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Tonsystem"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Sound Standard"
             },
@@ -149,6 +181,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.3.1) Beschreibt das technische oder proprietäre System, das zur Aufnahme des Tons auf einer Manifestation/Exemplar verwendet wird, z.B. Dolby SR, Dolby Digital usw. (3.1.5.5) Tonsystem beschreibt das technische oder proprietäre System, mit dem der Ton auf einer Manifestation bzw. einem Exemplar aufgezeichnet wurde, z.B. Dolby SR, Dolby Digital usw."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.3.1) Describes the technical or proprietary system used to record the sound on a Manifestation/Item, for example, Dolby SR, Dolby Digital, etc. (3.1.5.5) Describes the technical or proprietary system used to record the sound on a Manifestation/Item, for example, Dolby SR, Dolby Digital, etc."

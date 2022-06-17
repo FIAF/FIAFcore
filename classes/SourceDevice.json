@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.21"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.21"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Abspielgerät"
+            },
+            {
                 "@language": "en",
                 "@value": "Source Device"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.21) Erfassen Sie das in Digitalisierungsprojekten verwendete Abspielgerät. Dies kann ein Videodeck, ein Filmrecorder oder eine Hardware sein."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.21) Record the source playback device used in transfer projects. This can be a video deck, film printer, or hardware."

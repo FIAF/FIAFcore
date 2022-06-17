@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.1.1, 2.3.1.1, 3.1.1.1"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Identifikator"
+            },
+            {
                 "@language": "en",
                 "@value": "Identifier"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.1.1) Wenn es das System einer Institution erlaubt, kann ein 'Typ' mit einem Identifikator angewendet werden, um die Quelle des Identifikators zu bestimmen."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.1.1) If an institution's system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. (2.3.1.1) If an institution’s system allows, as with the Work/Variant Identifiers a “Type” can be applied with an Identifier to define the source of the Identifier. (3.1.1.1) If an institution’s system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. Examples: Barcode, Shelf mark, Accession number."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.1, 2.3.1, 3.1.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Identifikatortext"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Identifier Text"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.1) Erzeugen Sie eine eindeutige Verweisung auf das Werk unter Verwendung eines Identifikators. (2.3.1) Erstellen Sie einen eindeutigen Verweis auf die Manifestation, z.B. eine spezifische, von einer offiziellen Stelle vergebene Standardnummer (z.B. V-ISAN90 oder DOI91) oder eine vom System automatisch vergebene ID-Nummer. (3.1.1) Erstellen Sie einen eindeutigen numerischen oder alphanumerischen Verweis auf das Exemplar, wie z.B. eine Signatur, einen Barcode oder Ähnliches, um das Exemplar eindeutig zu identifizieren."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.1) Create an unambiguous reference to the Work/Variant using a unique identifier and indicate the type of identifier. (2.3.1) Create an unambiguous reference to the Manifestation, such as a specific standard number issued by an official body (i.e. V-ISAN87 or DOI88), or a system-automated assigned ID number. (3.1.1) Create an unambiguous numerical or alphanumerical reference to the moving image Item, such as a call number, barcode, shelf mark or similar, to uniquely identify the copy."

@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.10"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.10"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Sendestandard"
+            },
+            {
                 "@language": "en",
                 "@value": "Broadcast Standard"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.10) Der Sendestandard für ein Video oder eine DVD/Blu-ray: NTSC, PAL, SECAM."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.10) The broadcast standard for a video or DVD/BluRay: NTSC, PAL, SECAM."

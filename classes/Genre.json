@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.3"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Genre"
+            },
+            {
                 "@language": "en",
                 "@value": "Genre"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.3) Das Genre beschreibt Kategorien von Werken, die sich durch ähnliche Handlungsstränge, Themen, Schauplätze, Szenarien und Charaktere auszeichnen. Beispiele für Genres sind 'Western' oder 'Thriller'."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.3) Genre describes categories of Works, characterized by similar plots, themes, settings, situations, and characters. Examples of genres are “westerns” and “thrillers”."

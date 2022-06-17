@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.3.2, 3.1.5.4"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.3.2, 3.1.5.4"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Tonkanalkonfiguration"
+            },
+            {
                 "@language": "en",
                 "@value": "Sound Fixation"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.3.2) Wenn die Manifestation über Ton verfügt, verzeichnen Sie hier die Spurenkonfiguration (z.B. Mono, Stereo, usw.). (3.1.5.4) Wenn das Exemplar über Ton verfügt, verzeichnen Sie im Feld Tonkanalkonfiguration die Spurenkonfiguration (z.B. Mono, Stereo usw.)."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.3.2) If the Manifestation has sound, note here the track configuration (e.g., mono, stereo, etc.). (3.1.5.4) If the Item has sound, note here the track configuration (e.g., mono, stereo, etc.)"

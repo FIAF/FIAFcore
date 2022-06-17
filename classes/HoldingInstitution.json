@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.3"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Besitzende Institution"
+            },
+            {
                 "@language": "en",
                 "@value": "Holding Institution"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.3) Verzeichnen Sie den Namen derjenigen Institution ein, die das Filmmaterial besitzt oder berechtigt ist, es zur Verfügung zu stellen."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.3) Record the name of the institution possessing the moving image Item or authorised to make it available."

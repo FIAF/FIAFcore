@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.17"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.17"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Audiocodec"
+            },
+            {
                 "@language": "en",
                 "@value": "Audio Codec"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.17) Der Audiocodec ist der in der Audiodatei verwendete Audiokomprimierungsstandard, unabhängig davon, ob sie in einem Wrapper mit einer Videodatei oder als eigenständige Audiodatei enthalten ist."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.17) The audio compression standard used in the audio file, whether it is contained in a wrapper with a video file or as a standalone audio file."

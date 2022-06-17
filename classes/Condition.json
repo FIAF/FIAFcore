@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.6.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.6.1"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Exemplarszustand"
+            },
+            {
                 "@language": "en",
                 "@value": "Condition"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.6.1) Erfassen Sie den Zustand des Exemplars, einschließlich seines Trägers und/oder Emulsion und/oder Perforationen, falls zutreffend."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.6.1) Record the condition of the Item including its base and/or emulsion and/or perforations, where applicable."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.6.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.6.1"
             },
@@ -74,6 +90,10 @@
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
                 "@language": "en",
+                "@value": "Hat Wert von Exemplarszustand"
+            },
+            {
+                "@language": "en",
                 "@value": "Has Condition Value"
             },
             {
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.6.1) Daten werden einerseits in abgestuften Skalenbezeichnungen erfasst, die entweder numerisch oder alphabetisch, z.B. 1-5, A-G oder als perfekt bis sehr schlecht mit klaren Definitionen dessen, was jede Bezeichnung bedeutet."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.6.1) Incorporate data ranging from graded scales designations (either numerical or alphabetical, for example 1-5, A-G, Perfect – Very Poor)"

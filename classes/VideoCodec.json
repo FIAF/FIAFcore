@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.16"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.16"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Videocodec"
+            },
+            {
                 "@language": "en",
                 "@value": "Video Codec"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.16) Der Videokompressionsstandard, der in der digitalen Videodatei verwendet wird, z.B. D10, MP4, usw."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.16) The video compression standard used in the digital video Item, for example, D10, MP4, etc."

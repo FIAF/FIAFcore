@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.5.1, 2.3.3.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.5.1, 2.3.3.1"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Sprache"
+            },
+            {
                 "@language": "en",
                 "@value": "Language"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.5.1) Verwenden Sie eine Werteliste oder einen Thesaurus. (2.3.3.1) Wenn möglich, erfassen Sie die Sprache(n) mit der vollen Namensform, z.B. Französisch, Italienisch usw., und nicht mit Abkürzungen oder Codes, indem Sie den/die geeignetsten Wert(e) aus einer kontrollierten Liste nehmen."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.5.1) Record the language(s) by taking the most suitable value(s) from a controlled list of languages. (2.3.3.1) Where possible, record the language(s) using the full form of name, e.g., French, Italian, etc. rather than abbreviations or codes, by taking the most suitable value(s) from a controlled list."

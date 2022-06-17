@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.13"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.13"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Träger"
+            },
+            {
                 "@language": "en",
                 "@value": "Base"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.13) Der Träger bezeichnet das physische Material oder Videoformat, auf dem das Exemplar aufgenommen wurde, z.B. das flexible, transparente Material, das die Emulsion eines Exemplars oder einer Magnetspur trägt (z.B. Azetat, Nitrat, CTA usw.)."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.13) The physical material or video format on which the Item is captured, for example, describing the flexible transparent material that supports a film items’ emulsion or a magnetic track, (e.g., acetate, nitrate, CTA, etc.)."

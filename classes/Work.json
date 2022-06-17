@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.0.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.0.1"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Werk"
+            },
+            {
                 "@language": "en",
                 "@value": "Work"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.0.1) Ein Filmwerk umfasst sowohl den intellektuellen oder künstlerischen Inhalt als auch den Entstehungsprozess eines Films, z.B. wie er bezeichnet wird, wann er entstand, wer ihn hergestellt hat, wer mitgewirkt hat, worum es sich dabei handelt usw."
+            },
             {
                 "@language": "en",
                 "@value": "(1.0.1) A moving image Work comprises both the intellectual or artistic content and the process of realisation in a cinematographic medium, e.g., what it is called, when it was made, who made it, who was in it, what it is about, etc."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.3"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Ein Ursprungsland"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Country"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.3) Wenn mehr als ein Ort mit einem Werk bzw. einer Variante verbunden ist, wählen Sie den Ort mit der größten Bedeutung."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.3) Where known and applicable, record the geographic origin of the moving image Work/Variant."
@@ -112,6 +136,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.2, 2.4.2, 3.3.2"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"
             },
@@ -131,6 +159,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Ein Ereignis"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Event"
             },
@@ -149,6 +181,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.2) Ein Ereignis beschreibt Geschehnisse im Lebenszyklus eines Werks oder seiner Varianten. (2.4.2) Ein Ereignis charakterisiert Stationen im Lebenszyklus einer Manifestation. Instanzen eines beliebigen Ereignistyps können Agent- und 'Andere'-Beziehungen haben. (3.3.2) Ein Ereignis kennzeichnet ein Vorkommnis im Lebenszyklus eines Exemplars."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.2) An Event characterises occurrences in the lifecycle of a moving image Work or its Variants. (2.4.2) An Event characterises occurrences in the life cycle of a moving image Manifestation. Instances of any Event type can have Agent and Other relationships. (3.3.2) An Event characterises occurrences in the life cycle of a moving image Item."
@@ -170,6 +206,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.3"
             },
@@ -189,6 +229,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Gattung"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Form"
             },
@@ -207,6 +251,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.3) Gattung beschreibt das Format und/oder den Zweck eines Werkes, z.B. sind 'Kurzfilm' und 'Animation' spezifische Formen oder Identifikatoren."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.3) Form describes the format and/or purpose of a Work, e.g., “non-fiction”, “short” and “animation” are particular forms or identifiers."
@@ -228,6 +276,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.3"
             },
@@ -247,6 +299,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Genre"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Genre"
             },
@@ -265,6 +321,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.3) Das Genre beschreibt Kategorien von Werken, die sich durch ähnliche Handlungsstränge, Themen, Schauplätze, Szenarien und Charaktere auszeichnen. Beispiele für Genres sind 'Western' oder 'Thriller'."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.3) Genre describes categories of Works, characterized by similar plots, themes, settings, situations, and characters. Examples of genres are “westerns” and “thrillers”."
@@ -286,6 +346,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.1.1, 2.3.1.1, 3.1.1.1"
             },
@@ -305,6 +369,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Identifikator"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Identifier"
             },
@@ -323,6 +391,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.1.1) Wenn es das System einer Institution erlaubt, kann ein 'Typ' mit einem Identifikator angewendet werden, um die Quelle des Identifikators zu bestimmen."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.1.1) If an institution's system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. (2.3.1.1) If an institution’s system allows, as with the Work/Variant Identifiers a “Type” can be applied with an Identifier to define the source of the Identifier. (3.1.1.1) If an institution’s system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. Examples: Barcode, Shelf mark, Accession number."
@@ -344,6 +416,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.5.2, 2.3.3.2"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.5.2, 2.3.3.2"
             },
@@ -363,6 +439,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Verwendungstyp"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Language Usage"
             },
@@ -381,6 +461,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.5.2) Erfassen Sie den Verwendungstyp einer Sprache (z.B. gesprochene Sprache, Zwischentitel, Untertitel usw.), indem Sie den am besten geeigneten Begriff aus einer kontrollierten Liste entnehmen, die intern erstellt wurde oder auf eine bestehende offizielle Liste verweist. (2.3.3.2) Mehrere Sprachen können in verschiedenen Formen auftreten, je nachdem, wie der Inhalt ausgedrückt wird: Der Verwendungstyp der Sprachen definiert die Form, mit der die Sprache ausgedrückt wird, z.B. gesprochen, gesungen, geschrieben, usw."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.5.2) Record the usage type of a language (e.g. spoken, intertitles, subtitles, etc.) by taking the most suitable term from a controlled list elaborated in-house or referring to an existing authoritative list. (2.3.3.2) More than one language can occur in different forms, depending on how the content is expressed: the usage type of the languages defines the form with which the language is expressed, for example, spoken, sung, written, etc."
@@ -402,6 +486,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.6"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.6"
             },
@@ -421,6 +509,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Manifestationen"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Manifestation"
             },
@@ -439,6 +531,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.6) Die Beziehung zwischen einem Werk und einer Manifestation (z.B. Teil/Teil von) sollte ausgedrückt werden. Die Beziehungen zwischen Werk und Variante werden beschrieben oder veranschaulicht, indem sie mit dem Werk-Identifikator verknüpft werden, durch die Benutzung von Beziehungskennzeichnern (relator terms) oder entsprechend den Gegebenheiten der Datenstruktur der Institution beschrieben und veranschaulicht werden."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.6) Express the relationship between a moving image Work or Variant and a moving image Manifestation (e.g., Part/part of). Describe or demonstrate Work-to-Manifestation relationships through linking to the Work identifier, through the usage of relator terms, or according to the confines of your data structure."
@@ -460,6 +556,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.2.1, 2.3.2.1, 3.1.2.1"
             },
@@ -479,6 +579,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Titel"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Title"
             },
@@ -497,6 +601,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.2.1) Wenn ein Werk bzw. eine Variante oder eine Manifestation mehrere Titel hat (z.B. wegen mehrerer Sprachfassungen) sollten diese verzeichnet werden, wenn das für Ihre Institution relevant ist. Jedem Titel kann/sollte ein Titeltyp (Originaltitel, Verleihtitel, Fernsehtitel…) zugeordnet werden. (2.3.2.1) Wenn es für eine Institution relevant ist, dass die Manifestation mehrere Titel enthält, z.B. einen Titel in einer anderen Sprache für eine synchronisierte oder untertitelte Variante, erfassen Sie die relevanten Titel und ordnen Sie jedem Titel einen 'Titeltyp' zu, um zwischen den verschiedenen Arten von Titeln zu unterscheiden. (3.1.2.1) Beachten Sie die Quelle der Titelinformationen."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.2.1) Where relevant for an institution, if the Work/Variant or Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant Variant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (2.3.2.1) Where relevant for an institution, if the Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (3.1.2.1) Note the source of title information."
@@ -518,6 +626,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.5"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.5"
             },
@@ -537,6 +649,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Varianten"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Variant"
             },
@@ -555,6 +671,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.5) Die Beziehung zwischen einem Werk und einer Variante (z.B. Teil/Teil von) sollte ausgedrückt werden. Die Beziehungen zwischen Werk und Variante werden beschrieben oder veranschaulicht, indem sie mit dem Werk-Identifikator verknüpft werden, durch die Benutzung von Beziehungskennzeichnern (relator terms) oder entsprechend den Gegebenheiten der Datenstruktur der Institution beschrieben und veranschaulicht werden."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.5) Express the relationship between a moving image Work and a moving image Variant (e.g., Part/part of). Describe or demonstrate Work-to-Variant relationships through linking to the Work identifier, through the usage of relator terms, or according to the confines of your data structure."

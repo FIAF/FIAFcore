@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.0"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.0"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Exemplar"
+            },
+            {
                 "@language": "en",
                 "@value": "Item"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.0) Ein Exemplar ist das physische oder digitale Produkt einer Manifestation eines Werks oder einer Variante, d.h. die tatsächliche Kopie eines Werks oder einer Variante. Während der Manifestations-Datensatz das 'Ideal' eines bestimmten Formats oder einer bestimmten Publikation beschreibt, repräsentiert der Exemplar-Datensatz den tatsächlichen Bestand in einer Sammlung."
+            },
             {
                 "@language": "en",
                 "@value": "(3.0) A moving image Item is the physical or digital product of a Manifestation of a Work or Variant, i.e. the actual copy of a Work or Variant. Whereas the Manifestation record describes the “ideal” of a particular format or publication, the Item record represents the actual holding in a repository's collection."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.13"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.13"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Träger"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Base"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.13) Der Träger bezeichnet das physische Material oder Videoformat, auf dem das Exemplar aufgenommen wurde, z.B. das flexible, transparente Material, das die Emulsion eines Exemplars oder einer Magnetspur trägt (z.B. Azetat, Nitrat, CTA usw.)."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.13) The physical material or video format on which the Item is captured, for example, describing the flexible transparent material that supports a film items’ emulsion or a magnetic track, (e.g., acetate, nitrate, CTA, etc.)."
@@ -112,6 +136,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.10"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.10"
             },
@@ -131,6 +159,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Sendestandard"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Broadcast Standard"
             },
@@ -149,6 +181,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.10) Der Sendestandard für ein Video oder eine DVD/Blu-ray: NTSC, PAL, SECAM."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.10) The broadcast standard for a video or DVD/BluRay: NTSC, PAL, SECAM."
@@ -170,6 +206,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.1, 3.1.5.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.1, 3.1.5.1"
             },
@@ -189,6 +229,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Trägertyp"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Carrier"
             },
@@ -207,6 +251,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.1) Der Trägertyp ist das Medium bzw. das Kodierungsformat, auf dem die Manifestation fixiert ist. (3.1.5.1) Der Trägertyp ist das Medium oder das Kodierungsformat, auf dem das Exemplar fixiert ist."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.1) Carrier type is the medium on or the encoding format in which the Manifestation is fixed. (3.1.5.1) Carrier type is the medium on or the encoding format in which the Item is fixed."
@@ -228,6 +276,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.4, 3.1.5.6"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.4, 3.1.5.6"
             },
@@ -247,6 +299,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Farbeigenschaften"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Colour Characteristic"
             },
@@ -265,6 +321,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.4) Das Vorhandensein von Farbe(n), Tonung(en) usw. in einer Manifestation. (3.1.5.6) Das Vorhandensein von Farbe in einem Exemplar."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.4) The presence of colour(s), tone(s), etc. in a Manifestation. (3.1.5.6) The presence of colour(s), tone(s), etc. in an Item."
@@ -286,6 +346,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.4"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.4"
             },
@@ -304,6 +368,10 @@
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "de",
+                "@value": "Hat Materialart"
+            },
             {
                 "@language": "en",
                 "@value": "Has Element"
@@ -324,8 +392,12 @@
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
             {
+                "@language": "de",
+                "@value": "(3.1.4) Erfassen Sie die Materialart: z.B. 'Originalnegativ', 'Duplikatnegativ', 'Positivkopie', etc."
+            },
+            {
                 "@language": "en",
-                "@value": "(3.1.4) Record the nature or function of the moving image Item, describing its place in thephotochemical or digital production or duplication process, for example, “original negative,” “duplicate negative,” etc."
+                "@value": "(3.1.4) Record the nature or function of the moving image Item, describing its place in the photochemical or digital production or duplication process, for example, “original negative,” “duplicate negative,” etc."
             },
             {
                 "@language": "es",
@@ -343,6 +415,10 @@
             "http://www.w3.org/2002/07/owl#ObjectProperty"
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
+            {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.2, 2.4.2, 3.3.2"
+            },
             {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"
@@ -363,6 +439,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Ein Ereignis"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Event"
             },
@@ -381,6 +461,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.2) Ein Ereignis beschreibt Geschehnisse im Lebenszyklus eines Werks oder seiner Varianten. (2.4.2) Ein Ereignis charakterisiert Stationen im Lebenszyklus einer Manifestation. Instanzen eines beliebigen Ereignistyps können Agent- und 'Andere'-Beziehungen haben. (3.3.2) Ein Ereignis kennzeichnet ein Vorkommnis im Lebenszyklus eines Exemplars."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.2) An Event characterises occurrences in the lifecycle of a moving image Work or its Variants. (2.4.2) An Event characterises occurrences in the life cycle of a moving image Manifestation. Instances of any Event type can have Agent and Other relationships. (3.3.2) An Event characterises occurrences in the life cycle of a moving image Item."
@@ -402,6 +486,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.5, 3.1.5.8"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"
             },
@@ -421,6 +509,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Umfang"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Extent"
             },
@@ -439,6 +531,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.5) Das Konzept des Umfangs ist, angewendet auf Manifestationen, die 'ideale' logische, physikalische oder zeitliche (Laufzeit) Einheit und keine Beschreibung eines realen physikalischen Objekts. (3.1.5.8) Der tatsächliche physische bzw. digitale Umfang ist ein Merkmal eines einzelnen Exemplars, da er für mehrere Exemplare, die dieselbe Manifestation darstellen, unterschiedlich sein kann."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.5) The concept of extent as applied to Manifestations is the “ideal” logical, physical, or temporal(duration) units and not a description of a real physical object. (3.1.5.8)The actual physical / digital extent is a characteristic of a singular Item, since it can be different for multiple Items exemplifying the same moving image Manifestation."
@@ -460,6 +556,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.12"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.12"
             },
@@ -479,6 +579,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Bildrate"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Frame Rate"
             },
@@ -497,6 +601,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.12) Die Bildrate ist die native Abspielgeschwindigkeit in Bildern/pro Sekunde (fps) für das Exemplar."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.12) Frame rate is the native frame rate for the Item."
@@ -518,6 +626,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.3"
             },
@@ -537,6 +649,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Besitzende Institution"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Holding Institution"
             },
@@ -555,6 +671,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.3) Verzeichnen Sie den Namen derjenigen Institution ein, die das Filmmaterial besitzt oder berechtigt ist, es zur Verfügung zu stellen."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.3) Record the name of the institution possessing the moving image Item or authorised to make it available."
@@ -576,6 +696,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.1.1, 2.3.1.1, 3.1.1.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.1.1, 2.3.1.1, 3.1.1.1"
             },
@@ -595,6 +719,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Identifikator"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Identifier"
             },
@@ -613,6 +741,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.1.1) Wenn es das System einer Institution erlaubt, kann ein 'Typ' mit einem Identifikator angewendet werden, um die Quelle des Identifikators zu bestimmen."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.1.1) If an institution's system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. (2.3.1.1) If an institution’s system allows, as with the Work/Variant Identifiers a “Type” can be applied with an Identifier to define the source of the Identifier. (3.1.1.1) If an institution’s system allows, a “Type” can be applied with an Identifier to define the source of the Identifier. Examples: Barcode, Shelf mark, Accession number."
@@ -634,6 +766,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.19"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.19"
             },
@@ -653,6 +789,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Zeilennorm"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Line Standard"
             },
@@ -671,6 +811,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.19) Die Zeilennorm beschreibt die Anzahl der Abtastzeilen, aus denen das Bild besteht, und gibt die Auflösung an, z.B. 405, 525, 1080."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.19) Describes the number of scan lines which make up the image and indicates the resolution, for example, 405, 525, 1080."
@@ -692,6 +836,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.2, 3.1.5.9"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"
             },
@@ -711,6 +859,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Informationen zur Projektion"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Projection Characteristic"
             },
@@ -729,6 +881,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.2)  Dazu gehören das Bildseitenverhältnis und das Bildformat. (3.1.5.9) Dazu gehören das Seitenverhältnis und die Blende bzw. das Bildformat."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.2) The projection characteristics of a Manifestation include aspect ratio and aperture or image format. (3.1.5.9) The projection characteristics of a Manifestation/Item include aspect ratio and aperture or image format."
@@ -750,6 +906,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.18"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.18"
             },
@@ -769,6 +929,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Auflösung"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Resolution"
             },
@@ -787,6 +951,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.18) Verzeichnen Sie, ob es sich bei der Auflösung des Exemplars um Standardauflösung, High Definition usw."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.18) Note whether the Item's resolution is Standard Definition, High Definition, etc."
@@ -808,6 +976,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.3, 3.1.5.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.3, 3.1.5.3"
             },
@@ -827,6 +999,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Toneigenschaften"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Sound Characteristic"
             },
@@ -845,6 +1021,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.3) Klangmerkmale sind technische Spezifikationen, die sich auf die Platzierung von Klang auf einer Manifestation beziehen. (3.1.5.3) Technische Spezifikationen zum Ton einer Manifestation bzw. eines Exemplars."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.3) Sound characteristics are technical specifications relating to the placement of sound on a Manifestation. (3.1.5.3) Technical specifications relating to the fixation of sound in a moving image Manifestation/Item."
@@ -866,6 +1046,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.21"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.21"
             },
@@ -885,6 +1069,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Abspielgerät"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Source Device"
             },
@@ -903,6 +1091,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.21) Erfassen Sie das in Digitalisierungsprojekten verwendete Abspielgerät. Dies kann ein Videodeck, ein Filmrecorder oder eine Hardware sein."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.21) Record the source playback device used in transfer projects. This can be a video deck, film printer, or hardware."
@@ -924,6 +1116,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.22"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.22"
             },
@@ -943,6 +1139,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Quellsoftware"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Source Software"
             },
@@ -961,6 +1161,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.22) Aufzeichnung der für die Wiedergabe einer digitalen Datei verwendeten Quellsoftware."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.22) Record the source software used in playing a digital file."
@@ -982,6 +1186,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.2"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.2"
             },
@@ -1001,6 +1209,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Exemplarstatus"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Status"
             },
@@ -1019,6 +1231,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.2) Der Exemplarstatus beschreibt den Aufbewahrungs- oder Zugriffsstatus auf das Exemplar, z.B. Mastermaterial, Archivkopie, Vorführkopie, etc."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.2) Description of the preservation or access status of the Item, for example Master, Viewing, etc."
@@ -1040,6 +1256,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.14"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.14"
             },
@@ -1059,6 +1279,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Filmmaterial"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Stock"
             },
@@ -1077,6 +1301,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.14) Filmmaterial beschreibt das spezifische Material bzw. die Firmenmarke, auf dem/der das Exemplar aufgenommen wurde, z.B. Eastman Kodak, Fuji, 3M, usw."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.14) Describes the specific stock/brand on which the Item is captured, for example, Eastman Kodak, Fuji, 3M, etc."
@@ -1098,6 +1326,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.6.2"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.6.2"
             },
@@ -1117,6 +1349,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Standort"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Storage Location"
             },
@@ -1135,6 +1371,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.6.2) Bei der Beschreibung von Exemplaren sollte der Standort in Form einer Lagerortnummer angegeben werden, um den Zugriff und das Wiederauffinden zu ermöglichen."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.6.2) Item descriptions should indicate a storage location number in order to provide access and retrieval."
@@ -1156,6 +1396,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"
+            },
+            {
                 "@language": "en",
                 "@value": "Glossary of Technical Terms TRACK (2)"
             },
@@ -1175,6 +1419,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "[NEEDS TRANSLATION] Has Stream"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Stream"
             },
@@ -1193,6 +1441,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
+            },
             {
                 "@language": "en",
                 "@value": "(TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
@@ -1214,6 +1466,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.2.1, 2.3.2.1, 3.1.2.1"
             },
@@ -1233,6 +1489,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Titel"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Title"
             },
@@ -1251,6 +1511,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.2.1) Wenn ein Werk bzw. eine Variante oder eine Manifestation mehrere Titel hat (z.B. wegen mehrerer Sprachfassungen) sollten diese verzeichnet werden, wenn das für Ihre Institution relevant ist. Jedem Titel kann/sollte ein Titeltyp (Originaltitel, Verleihtitel, Fernsehtitel…) zugeordnet werden. (2.3.2.1) Wenn es für eine Institution relevant ist, dass die Manifestation mehrere Titel enthält, z.B. einen Titel in einer anderen Sprache für eine synchronisierte oder untertitelte Variante, erfassen Sie die relevanten Titel und ordnen Sie jedem Titel einen 'Titeltyp' zu, um zwischen den verschiedenen Arten von Titeln zu unterscheiden. (3.1.2.1) Beachten Sie die Quelle der Titelinformationen."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.2.1) Where relevant for an institution, if the Work/Variant or Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant Variant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (2.3.2.1) Where relevant for an institution, if the Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (3.1.2.1) Note the source of title information."

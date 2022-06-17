@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.4"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.4"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Farbverfahren"
+            },
+            {
                 "@language": "en",
                 "@value": "Colour Standard"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.4) Optional beschreiben Sie das System oder den Prozess, mit dem die Farbe auf dem Träger oder als Teil der digitalen Kodierung fixiert wird, z.B. Pathécolor, Technicolor, RGB usw."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.4) Optionally, if considered relevant, describe the system or process by which colour is fixed on the carrier or as part of the digital encoding, for example, Pathécolor, Technicolor, RGB, etc."

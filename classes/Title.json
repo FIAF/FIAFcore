@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.2.1, 2.3.2.1, 3.1.2.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.2.1, 2.3.2.1, 3.1.2.1"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Titel"
+            },
+            {
                 "@language": "en",
                 "@value": "Title"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.2.1) Wenn ein Werk bzw. eine Variante oder eine Manifestation mehrere Titel hat (z.B. wegen mehrerer Sprachfassungen) sollten diese verzeichnet werden, wenn das für Ihre Institution relevant ist. Jedem Titel kann/sollte ein Titeltyp (Originaltitel, Verleihtitel, Fernsehtitel…) zugeordnet werden. (2.3.2.1) Wenn es für eine Institution relevant ist, dass die Manifestation mehrere Titel enthält, z.B. einen Titel in einer anderen Sprache für eine synchronisierte oder untertitelte Variante, erfassen Sie die relevanten Titel und ordnen Sie jedem Titel einen 'Titeltyp' zu, um zwischen den verschiedenen Arten von Titeln zu unterscheiden. (3.1.2.1) Beachten Sie die Quelle der Titelinformationen."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.2.1) Where relevant for an institution, if the Work/Variant or Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant Variant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (2.3.2.1) Where relevant for an institution, if the Manifestation includes multiple titles, such as a title in another language for a dubbed or subtitled variant, record the relevant titles and associate a “Title Type” to each title for differentiation between the various types of titles. (3.1.2.1) Note the source of title information."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.3.2, 2.3.2, 3.1.2"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.3.2, 2.3.2, 3.1.2"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Titeltext"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Title Text"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.3.2) Mindestens ein Titel wird für das Filmwerk oder die Variante erfasst. (2.3.2) Erfassen Sie mindestens einen Manifestationstitel. (3.1.2) Erfassen Sie ggfs. einen Titel für das Exemplar, falls dieser Titel vom Manifestations- und/oder Werktitel abweicht."
+            },
             {
                 "@language": "en",
                 "@value": "(1.3.2) Record at least one title, identifying phrase, or name for the moving image Work or Variant. (2.3.2) Record at least one title, identifying phrase, or name for the Manifestation Title. (3.1.2) Record at least one title, identifying phrase, or name for the moving image Item Title."

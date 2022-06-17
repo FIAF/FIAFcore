@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.2, 3.1.5.9"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Informationen zur Projektion"
+            },
+            {
                 "@language": "en",
                 "@value": "Projection Characteristic"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.2)  Dazu gehören das Bildseitenverhältnis und das Bildformat. (3.1.5.9) Dazu gehören das Seitenverhältnis und die Blende bzw. das Bildformat."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.2) The projection characteristics of a Manifestation include aspect ratio and aperture or image format. (3.1.5.9) The projection characteristics of a Manifestation/Item include aspect ratio and aperture or image format."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.2, 3.1.5.9"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.2, 3.1.5.9"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Wert von Informationen zur Projektione"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Projection Characteristic Value"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.2) Das Bildseitenverhältnis (auch als Projektionsverhältnis bezeichnet) ist der projizierte, auf der Leinwand sichtbare Bildbereich, ausgedrückt als Wert von Breite zu Höhe (wobei der Wert für die Höhe immer '1' ist), z.B. 2,34:1, 2,39:1."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.2) The aspect ratio (also known as projection ratio) is the projected image area visible on screen, expressed as a value of width to height (the value of height always being “1”)."

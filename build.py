@@ -12,7 +12,7 @@ ont = rdflib.URIRef('https://fiafcore.org/ontology/')
 graph.add((ont, rdflib.RDF.type, rdflib.OWL.Ontology))
 graph.add((ont, rdflib.URIRef('http://purl.org/dc/elements/1.1/title'), rdflib.Literal('FIAFcore')))
 graph.add((ont, rdflib.URIRef('http://purl.org/dc/elements/1.1/contributor'), rdflib.Literal('Paul Duchesne')))
-graph.add((ont, rdflib.OWL.versionInfo, rdflib.Literal('0.01')))
+graph.add((ont, rdflib.OWL.versionInfo, rdflib.Literal('0.02')))
 
 for c in classes:
     ontology_path = pathlib.Path.cwd() / 'FIAFcore.ttl'

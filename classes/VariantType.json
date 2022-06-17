@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.2.2"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.2.2"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Variantentyp"
+            },
+            {
                 "@language": "en",
                 "@value": "Variant Type"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "en",
+                "@value": "(1.2.2) Die Art der Änderung eines Werkes, die zu einer oder mehreren Instanzen einer Variante führt, wird identifiziert und beschrieben."
+            },
             {
                 "@language": "en",
                 "@value": "(1.2.2) Identify and describe the kind of change from a Work that gives rise to any instance(s) of a Variant."

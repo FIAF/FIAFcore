@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.3.1, 3.1.5.5"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.3.1, 3.1.5.5"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Tonsystem"
+            },
+            {
                 "@language": "en",
                 "@value": "Sound Standard"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.3.1) Beschreibt das technische oder proprietäre System, das zur Aufnahme des Tons auf einer Manifestation/Exemplar verwendet wird, z.B. Dolby SR, Dolby Digital usw. (3.1.5.5) Tonsystem beschreibt das technische oder proprietäre System, mit dem der Ton auf einer Manifestation bzw. einem Exemplar aufgezeichnet wurde, z.B. Dolby SR, Dolby Digital usw."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.3.1) Describes the technical or proprietary system used to record the sound on a Manifestation/Item, for example, Dolby SR, Dolby Digital, etc. (3.1.5.5) Describes the technical or proprietary system used to record the sound on a Manifestation/Item, for example, Dolby SR, Dolby Digital, etc."

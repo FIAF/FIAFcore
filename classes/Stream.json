@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "[NEEDS TRANSLATION] Glossary of Technical Terms TRACK (2)"
+            },
+            {
                 "@language": "en",
                 "@value": "Glossary of Technical Terms TRACK (2)"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "[NEEDS TRANSLATION] Stream"
+            },
+            {
                 "@language": "en",
                 "@value": "Stream"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "[NEEDS TRANSLATION] (TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
+            },
             {
                 "@language": "en",
                 "@value": "(TRACK (2)) As a digital term, refers to any of various tracks (image, sound, subtitle, etc.) in a moving image file."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.17"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Audiocodec"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Audio Codec"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.17) Der Audiocodec ist der in der Audiodatei verwendete Audiokomprimierungsstandard, unabhängig davon, ob sie in einem Wrapper mit einer Videodatei oder als eigenständige Audiodatei enthalten ist."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.17) The audio compression standard used in the audio file, whether it is contained in a wrapper with a video file or as a standalone audio file."
@@ -112,6 +136,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.20"
             },
@@ -131,6 +159,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Bittiefe"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Bit Depth"
             },
@@ -149,6 +181,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.20) Die Auswahl der Bittiefe sollte aus einer kontrollierten Liste von Begriffen erfolgen."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.20) Note that bit depth can be used in describing both video and audio files."
@@ -170,6 +206,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.16"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.16"
             },
@@ -189,6 +229,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Videocodec"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Video Codec"
             },
@@ -207,6 +251,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.16) Der Videokompressionsstandard, der in der digitalen Videodatei verwendet wird, z.B. D10, MP4, usw."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.16) The video compression standard used in the digital video Item, for example, D10, MP4, etc."

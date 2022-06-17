@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.3"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.3"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Gattung"
+            },
+            {
                 "@language": "en",
                 "@value": "Form"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.3) Gattung beschreibt das Format und/oder den Zweck eines Werkes, z.B. sind 'Kurzfilm' und 'Animation' spezifische Formen oder Identifikatoren."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.3) Form describes the format and/or purpose of a Work, e.g., “non-fiction”, “short” and “animation” are particular forms or identifiers."

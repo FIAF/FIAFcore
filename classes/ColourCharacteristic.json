@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.4, 3.1.5.6"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Farbeigenschaften"
+            },
+            {
                 "@language": "en",
                 "@value": "Colour Characteristic"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.4) Das Vorhandensein von Farbe(n), Tonung(en) usw. in einer Manifestation. (3.1.5.6) Das Vorhandensein von Farbe in einem Exemplar."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.4) The presence of colour(s), tone(s), etc. in a Manifestation. (3.1.5.6) The presence of colour(s), tone(s), etc. in an Item."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.4"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.4.4"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Farbverfahren"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Colour Standard"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.4.4) Optional beschreiben Sie das System oder den Prozess, mit dem die Farbe auf dem Träger oder als Teil der digitalen Kodierung fixiert wird, z.B. Pathécolor, Technicolor, RGB usw."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.4.4) Optionally, if considered relevant, describe the system or process by which colour is fixed on the carrier or as part of the digital encoding, for example, Pathécolor, Technicolor, RGB, etc."

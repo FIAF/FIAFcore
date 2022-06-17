@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.5, 3.1.5.8"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Umfang"
+            },
+            {
                 "@language": "en",
                 "@value": "Extent"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(2.3.5) Das Konzept des Umfangs ist, angewendet auf Manifestationen, die 'ideale' logische, physikalische oder zeitliche (Laufzeit) Einheit und keine Beschreibung eines realen physikalischen Objekts. (3.1.5.8) Der tatsächliche physische bzw. digitale Umfang ist ein Merkmal eines einzelnen Exemplars, da er für mehrere Exemplare, die dieselbe Manifestation darstellen, unterschiedlich sein kann."
+            },
             {
                 "@language": "en",
                 "@value": "(2.3.5) The concept of extent as applied to Manifestations is the“ ideal” logical, physical, or temporal(duration) units and not a description of a real physical object. (3.1.5.8)The actual physical / digital extent is a characteristic of a singular Item, since it can be different for multiple Items exemplifying the same moving image Manifestation."
@@ -54,6 +66,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 2.3.5, 3.1.5.8"
             },
@@ -73,6 +89,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Hat Wert von Umfang"
+            },
+            {
                 "@language": "en",
                 "@value": "Has Extent Value"
             },
@@ -91,6 +111,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.8) Die Verwendung von separaten numerischen Feldern kann Berechnungen zur Bestimmung des Umfangs des vorhandenen Materials erleichtern. Für digitale Dateien geben Sie die numerische Maßeinheit an, die der Größe der Datei des digitalen Exemplars in KB, MB, GB oder TB entspricht."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.8) Having separate numeric fields can facilitate calculations in determining the amount of footage that will be preserved. For digital files, enter the numerical measurement indicating the size of the digital asset’s file(s), in KB, MB, GB, or TB."

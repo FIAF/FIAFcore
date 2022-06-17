@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 1.4.1, 2.4.1, 3.3.1"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 1.4.1, 2.4.1, 3.3.1"
             },
@@ -20,6 +24,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
             {
+                "@language": "de",
+                "@value": "Agenten"
+            },
+            {
                 "@language": "en",
                 "@value": "Agent"
             },
@@ -33,6 +41,10 @@
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(1.4.1) Ein Agent ist als eine Entität definiert, die an der Schöpfung, Realisierung, Kuratierung oder Verwertung eines Werkes bzw. einer Variante beteiligt ist. (2.4.1) Agenten für Manifestationen sind an der Verwertung (Veröffentlichung, Vertrieb, Ausstrahlung), Veröffentlichung, Herstellung oder Bewahrung einer Manifestation beteiligt. Sie tragen die Hauptverantwortung für die Manifestation oder sind für sie von großer Bedeutung. (3.3.1) Ein Agent für Exemplare von Werken ist definiert als eine Entität, die an der Beschaffung, der Beförderung (zum Zwecke der Ausleihe, der Überprüfung, der Lagerung usw.) oder der Bewahrung eines Exemplars beteiligt ist und von der man annimmt, dass er die Hauptverantwortung für das Exemplar trägt oder für dieses von großer Bedeutung ist."
+            },
             {
                 "@language": "en",
                 "@value": "(1.4.1) An Agent is defined as an entity that is involved in the creation, realisation, curation or exploitation of a Work/Variant and who is considered to have major responsibility for, or be of major importance to, the Work/Variant. (2.4.1) An Agent for moving image Manifestations is defined as an entity that is involved in the exploitation (release, distribution, broadcasting), publishing, manufacturing or preservation of a Manifestation and who is considered to have major responsibility for, or be of major importance to, the Manifestation. (3.3.1) An Agent for moving image Items is defined as an entity that is involved in the acquisition, movement (for loans, inspection, storage, etc.), or preservation of a moving image Item and who is considered to have major responsibility for, or be of major importance to, the moving image Item."

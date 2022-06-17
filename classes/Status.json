@@ -6,6 +6,10 @@
         ],
         "http://www.w3.org/2000/01/rdf-schema#comment": [
             {
+                "@language": "de",
+                "@value": "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.5.2"
+            },
+            {
                 "@language": "en",
                 "@value": "FIAF Moving Image Cataloguing Manual 3.1.5.2"
             },
@@ -13,13 +17,16 @@
                 "@language": "es",
                 "@value": "Manual FIAF de Catalogación de Imágenes en Movimiento 3.1.5.2"
             },
-
             {
                 "@language": "fr",
                 "@value": "Le Manuel de catalogage des images animées de la FIAF 3.1.5.2"
             }
         ],
         "http://www.w3.org/2000/01/rdf-schema#label": [
+            {
+                "@language": "de",
+                "@value": "Exemplarstatus"
+            },
             {
                 "@language": "en",
                 "@value": "Status"
@@ -28,13 +35,16 @@
                 "@language": "es",
                 "@value": "Estado"
             },
-
             {
                 "@language": "fr",
                 "@value": "Statut"
             }
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
+            {
+                "@language": "de",
+                "@value": "(3.1.5.2) Der Exemplarstatus beschreibt den Aufbewahrungs- oder Zugriffsstatus auf das Exemplar, z.B. Mastermaterial, Archivkopie, Vorführkopie, etc."
+            },
             {
                 "@language": "en",
                 "@value": "(3.1.5.2) Description of the preservation or access status of the Item, for example Master, Viewing, etc."
@@ -43,7 +53,6 @@
                 "@language": "es",
                 "@value": "(3.1.5.2) Descripción del estado de preservación o el estado de acceso del Ítem, por ejemplo: máster, visualización, etc."
             },
-
             {
                 "@language": "fr",
                 "@value": "(3.1.5.2) Il s'agit de la description du statut de conservation ou d'accès de l'Item, p. ex. Master, copie de visionnage, etc."
