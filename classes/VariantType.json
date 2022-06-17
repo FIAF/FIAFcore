@@ -42,7 +42,7 @@
         ],
         "http://www.w3.org/2004/02/skos/core#definition": [
             {
-                "@language": "en",
+                "@language": "de",
                 "@value": "(1.2.2) Die Art der Änderung eines Werkes, die zu einer oder mehreren Instanzen einer Variante führt, wird identifiziert und beschrieben."
             },
             {

@@ -269,7 +269,6 @@
     rdfs:range <https://fiafcore.org/ontology/Extent> ;
     skos:definition "(2.3.5) Das Konzept des Umfangs ist, angewendet auf Manifestationen, die 'ideale' logische, physikalische oder zeitliche (Laufzeit) Einheit und keine Beschreibung eines realen physikalischen Objekts. (3.1.5.8) Der tatsächliche physische bzw. digitale Umfang ist ein Merkmal eines einzelnen Exemplars, da er für mehrere Exemplare, die dieselbe Manifestation darstellen, unterschiedlich sein kann."@de,
         "(2.3.5) The concept of extent as applied to Manifestations is the “ideal” logical, physical, or temporal(duration) units and not a description of a real physical object. (3.1.5.8) The actual physical / digital extent is a characteristic of a singular Item, since it can be different for multiple Items exemplifying the same moving image Manifestation."@en,
-        "(2.3.5) The concept of extent as applied to Manifestations is the “ideal” logical, physical, or temporal(duration) units and not a description of a real physical object. (3.1.5.8)The actual physical / digital extent is a characteristic of a singular Item, since it can be different for multiple Items exemplifying the same moving image Manifestation."@en,
         "(2.3.5) El concepto de extensión tal como se aplica en las Manifestaciones se refiere a las unidades lógicas, físicas o temporales (duración) “ideales”; y no a la descripción de un objeto físico real. (3.1.5.8) La extension física y/o digital es una característica de un Ítem específico, ya que puede diferir de múltiples Ítems ejemplificando a la misma Manifestación de imágenes en movimiento."@es,
         "(2.3.5) Le concept d'étendue appliqué à la Manifestation désigne des unités logiques, matérielles ou temporelles (durée) « idéales » et non celles d'un objet physique réel. (3.1.5.8) L'étendue matérielle/numérique réelle caractérise un Item en particulier et peut être différente pour chaque Item distinct représentant un exemplaire d'une même Manifestation."@fr .
 
@@ -1057,7 +1056,7 @@
         "FIAF Moving Image Cataloguing Manual 1.2.2"@en,
         "Manual FIAF de Catalogación de Imágenes en Movimiento 1.2.2"@es,
         "Le Manuel de catalogage des images animées de la FIAF 1.2.2"@fr ;
-    skos:definition "(1.2.2) Die Art der Änderung eines Werkes, die zu einer oder mehreren Instanzen einer Variante führt, wird identifiziert und beschrieben."@en,
+    skos:definition "(1.2.2) Die Art der Änderung eines Werkes, die zu einer oder mehreren Instanzen einer Variante führt, wird identifiziert und beschrieben."@de,
         "(1.2.2) Identify and describe the kind of change from a Work that gives rise to any instance(s) of a Variant."@en,
         "(1.2.2) Identifique y describa el tipo de cambio a partir de una Obra de la que ha surgido una Variante."@es,
         "(1.2.2) Identifiez et décrivez le type de changement par rapport à une Œuvre qui donne lieu à une ou plusieurs Variante(s)."@fr .
