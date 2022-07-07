@@ -172,8 +172,8 @@
         "(3.1.6.1) Enregistrez l'état de l'Item, y compris la nature du support et/ou son émulsion et/ou ses perforations, le cas échéant."@fr .
 
 <https://fiafcore.org/ontology/hasConditionValue> a owl:DatatypeProperty ;
-    rdfs:label "Has Condition Value"@en,
-        "Hat Wert von Exemplarszustand"@en,
+    rdfs:label "Hat Wert von Exemplarszustand"@de,
+        "Has Condition Value"@en,
         "Tiene Valor de Condición"@es,
         "A Une Valeur d'État"@fr ;
     rdfs:comment "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 3.1.6.1"@de,
@@ -456,8 +456,8 @@
         "(3.1.5.19) Cette notion décrit le nombre de lignes de balayage qui constituent l’image et indique la résolution, p. ex. 405, 525, 1080."@fr .
 
 <https://fiafcore.org/ontology/hasLocation> a owl:ObjectProperty ;
-    rdfs:label "Has Location"@en,
-        "Hat Ort"@en,
+    rdfs:label "Hat Ort"@de,
+        "Has Location"@en,
         "Tiene Localidad"@es,
         "A Un Lieu"@fr ;
     rdfs:comment "Das FIAF-Handbuch für die Katalogisierung von Filmwerken D.4.3"@de,
@@ -557,8 +557,8 @@
 <https://fiafcore.org/ontology/hasSoundFixation> a owl:ObjectProperty ;
     rdfs:label "Hat Tonkanalkonfiguration"@de,
         "Has Sound Fixation"@en,
-        "A Une Configuration des Canaux Audio"@es,
-        "Tiene Configuración del Canal de Sonido"@es ;
+        "Tiene Configuración del Canal de Sonido"@es,
+        "A Une Configuration des Canaux Audio"@fr ;
     rdfs:comment "Das FIAF-Handbuch für die Katalogisierung von Filmwerken 2.3.4.3.2, 3.1.5.4"@de,
         "FIAF Moving Image Cataloguing Manual 2.3.4.3.2, 3.1.5.4"@en,
         "Manual FIAF de Catalogación de Imágenes en Movimiento 2.3.4.3.2, 3.1.5.4"@es,
